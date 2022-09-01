@@ -16,4 +16,7 @@ export default {
 nav {
   @apply flex items-center justify-between h-14;
 }
+figure:first-child {
+  @apply bg-slate-200;
+}
 </style>

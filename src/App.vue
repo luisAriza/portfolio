@@ -13,4 +13,8 @@ import Footer from "./components/Footer.vue";
 import TabBar from "./components/TabBar.vue";
 </script>
 
-<style scoped></style>
+<style scoped lang="postcss">
+main {
+  @apply px-6;
+}
+</style>
