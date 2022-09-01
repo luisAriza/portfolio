@@ -14,6 +14,6 @@ export default {
 
 <style scoped lang="postcss">
 nav {
-  @apply flex space-between;
+  @apply flex items-center justify-between h-14;
 }
 </style>

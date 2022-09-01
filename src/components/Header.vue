@@ -12,4 +12,17 @@ header
 import Navbar from "./Navbar.vue";
 </script>
 
-<style scoped></style>
+<style scoped lang="postcss">
+header {
+  @apply h-96 px-6 relative;
+}
+article {
+  @apply flex flex-col gap-6 w-full py-10 text-center;
+}
+h1 {
+  @apply text-5xl uppercase;
+}
+img {
+  @apply mx-auto;
+}
+</style>
