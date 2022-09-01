@@ -15,7 +15,7 @@ div.project-item
 
 <style scoped lang="postcss">
 .project-item {
-  @apply rounded-xl overflow-hidden;
+  @apply rounded-xl overflow-hidden sm:max-w-md shadow-md;
 }
 figure {
   @apply bg-slate-200;

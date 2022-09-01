@@ -1,9 +1,9 @@
 <template lang="pug">
 nav
 	figure
-		img(src="../assets/image.svg", alt="Logo", width="36")
+		img(src="../assets/image.svg", alt="Logo", width="40")
 	figure
-		img(src="../assets/sun.svg", alt="Night mode", width="28")
+		img(src="../assets/sun.svg", alt="Night mode", width="32")
 </template>
 
 <script lang="ts">
@@ -14,9 +14,13 @@ export default {
 
 <style scoped lang="postcss">
 nav {
-  @apply flex items-center justify-between h-14;
+  @apply flex items-center justify-between py-4;
+  -webkit-tap-highlight-color: transparent;
 }
 figure:first-child {
   @apply bg-slate-200;
+}
+figure:last-child {
+  @apply hidden sm:block cursor-pointer;
 }
 </style>

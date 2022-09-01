@@ -8,9 +8,9 @@
   line-height: 24px;
   font-weight: 400;
 
-  color-scheme: light dark;
+  /* color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #242424; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -21,6 +21,8 @@
 
 html {
   scroll-behavior: smooth;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
 }
 
 * {
@@ -29,9 +31,9 @@ html {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
   }
-}
+} */

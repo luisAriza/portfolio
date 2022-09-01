@@ -21,7 +21,7 @@ export default {
 
 <style scoped lang="postcss">
 header {
-  @apply h-[27rem] px-6 relative;
+  @apply h-[26rem] px-6 relative sm:px-10;
 }
 article {
   @apply flex flex-col gap-6 w-full pt-6 pb-16 text-center;
@@ -29,8 +29,10 @@ article {
 h1 {
   @apply text-5xl uppercase;
 }
-
+figure {
+  @apply px-8;
+}
 img {
-  @apply mx-auto;
+  @apply w-full max-w-xs mx-auto;
 }
 </style>

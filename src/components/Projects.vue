@@ -4,6 +4,8 @@ section
 	ProjectItem
 	ProjectItem
 	ProjectItem
+	ProjectItem
+	p Mostrar más...
 </template>
 
 <script setup lang="ts">
@@ -12,9 +14,12 @@ import ProjectItem from "./ProjectItem.vue";
 
 <style scoped lang="postcss">
 section {
-  @apply grid gap-6;
+  @apply grid justify-center gap-10 max-w-sm mx-auto sm:grid-cols-2 sm:max-w-2xl;
 }
 h2 {
-  @apply my-4 text-3xl text-center;
+  @apply my-4 text-3xl text-center sm:col-span-2;
+}
+p {
+  @apply text-center sm:col-span-2;
 }
 </style>
