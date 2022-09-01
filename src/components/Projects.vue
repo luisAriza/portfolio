@@ -1,6 +1,6 @@
 <template lang="pug">
 section
-	h2 Projects
+	h2 Projects List
 	ProjectItem
 	ProjectItem
 	ProjectItem

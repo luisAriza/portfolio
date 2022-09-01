@@ -1,11 +1,11 @@
 <template lang="pug">
 header
 	Navbar
-	div
+	article
 		h1 Luis Manuel
 		p Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, quasi sit, ullam unde, minima recusandae fuga laudantium eius quis.
 	figure
-		img
+		img(src="../assets/online_gallery.svg", alt="Image", width="240")
 </template>
 
 <script setup lang="ts">
