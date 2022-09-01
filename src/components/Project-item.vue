@@ -1,13 +1,13 @@
 <template lang="pug">
 div
 	figure
-		img(src="../assets/image.svg", alt="Project image", width="300", height="160")
+		img(src="../assets/image.svg", alt="Project image", width="320", height="200")
 	article
 		h3 Project title
 		p Project description
 		div.tags
-			small Html
-			small Css
+			small HTML
+			small CSS
 			small JS
 </template>
 

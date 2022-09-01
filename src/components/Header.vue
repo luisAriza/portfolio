@@ -2,7 +2,7 @@
 header
 	Navbar
 	article
-		h1 Luis Manuel
+		h1 Luis Ariza
 		p Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, quasi sit, ullam unde, minima recusandae fuga laudantium eius quis.
 	figure
 		img(src="../assets/online_gallery.svg", alt="Image", width="240")

@@ -6,6 +6,14 @@ nav
 		img(src="../assets/sun.svg", alt="Night mode", width="28")
 </template>
 
-<script setup lang="ts"></script>
+<script lang="ts">
+export default {
+  name: "Navbar",
+};
+</script>
 
-<style scoped></style>
+<style scoped lang="postcss">
+nav {
+  @apply flex space-between;
+}
+</style>
