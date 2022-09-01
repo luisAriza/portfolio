@@ -33,6 +33,6 @@ h3 {
   @apply flex gap-4;
 }
 small {
-  @apply py-0 px-2 rounded-lg bg-black;
+  @apply py-0 px-2 rounded-md bg-black;
 }
 </style>

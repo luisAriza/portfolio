@@ -4,7 +4,6 @@ section
 	ProjectItem
 	ProjectItem
 	ProjectItem
-	ProjectItem
 </template>
 
 <script setup lang="ts">
@@ -13,7 +12,7 @@ import ProjectItem from "./ProjectItem.vue";
 
 <style scoped lang="postcss">
 section {
-  @apply grid gap-6 pt-40;
+  @apply grid gap-6;
 }
 h2 {
   @apply my-4 text-3xl text-center;

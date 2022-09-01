@@ -1,7 +1,7 @@
 <template lang="pug">
-Header
+Header(id="home")
 main
-	Projects
+	Projects(id="projects")
 Footer
 TabBar
 </template>
@@ -15,6 +15,6 @@ import TabBar from "./components/TabBar.vue";
 
 <style scoped lang="postcss">
 main {
-  @apply px-6;
+  @apply px-6 pt-40 pb-12;
 }
 </style>
