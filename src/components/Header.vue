@@ -1,11 +1,12 @@
 <template lang="pug">
 header
 	Navbar
-	article
-		h1 Luis Ariza
-		p Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, quasi sit, ullam unde, minima recusandae fuga laudantium eius quis.
-	figure
-		img(src="../assets/online_gallery.svg", alt="Image", width="260")
+	div
+		article
+			h1 Luis Ariza
+			p Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, quasi sit, ullam unde, minima recusandae fuga laudantium eius quis.
+		figure
+			img(src="../assets/tabs.svg", alt="Image", width="260")
 </template>
 
 <script lang="ts">
@@ -21,7 +22,10 @@ export default {
 
 <style scoped lang="postcss">
 header {
-  @apply h-[26rem] px-6 relative sm:px-10 md:flex md:flex-wrap md:gap-y-5 md:h-auto md:py-5;
+  @apply flex flex-col items-center w-full h-[26rem] px-6 sm:px-10 md:h-auto md:py-5 bg-gradient-to-b from-secondary to-white text-variant;
+}
+div {
+  @apply w-full max-w-5xl md:flex md:flex-wrap;
 }
 article {
   @apply flex flex-col gap-6 w-full pt-6 pb-16 text-center md:w-1/2 md:p-0 md:justify-center md:text-left;

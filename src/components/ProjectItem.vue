@@ -1,38 +1,32 @@
 <template lang="pug">
 div.project-item
 	figure
+		div
+			h3 batatabit: bitcoin tracker
+			a(href="#")  Preview
+			a(href="#") Open
 		img(src="../assets/image.svg", alt="Project image", width="320", height="200")
-	article
-		h3 Project title
-		p Project description
-		div.tags
-			small HTML
-			small CSS
-			small JS
 </template>
 
 <script setup lang="ts"></script>
 
 <style scoped lang="postcss">
 .project-item {
-  @apply rounded-xl overflow-hidden sm:max-w-md shadow-md;
+  @apply rounded-xl overflow-hidden sm:max-w-md shadow-md relative;
 }
 figure {
-  @apply bg-slate-200;
+  @apply w-full bg-gray-300;
 }
 img {
   @apply w-full;
 }
-article {
-  @apply flex flex-col gap-3 p-4 bg-slate-700;
+div {
+  @apply flex flex-wrap place-content-center gap-4 w-full h-full text-center absolute;
 }
 h3 {
-  @apply text-2xl capitalize;
+  @apply text-2xl capitalize text-white drop-shadow-h3;
 }
-.tags {
-  @apply flex gap-4;
-}
-small {
-  @apply py-0 px-2 rounded-md bg-black;
+a {
+  @apply w-24 px-3 py-2 rounded-lg border border-black;
 }
 </style>
