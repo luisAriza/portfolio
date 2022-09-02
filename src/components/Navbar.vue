@@ -14,7 +14,7 @@ export default {
 
 <style scoped lang="postcss">
 nav {
-  @apply flex items-center justify-between py-4;
+  @apply flex items-center justify-between w-full max-w-5xl mx-auto py-4;
   -webkit-tap-highlight-color: transparent;
 }
 figure:first-child {

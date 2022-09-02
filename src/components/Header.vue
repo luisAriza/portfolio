@@ -21,18 +21,21 @@ export default {
 
 <style scoped lang="postcss">
 header {
-  @apply h-[26rem] px-6 relative sm:px-10;
+  @apply h-[26rem] px-6 relative sm:px-10 md:flex md:flex-wrap md:gap-y-5 md:h-auto md:py-5;
 }
 article {
-  @apply flex flex-col gap-6 w-full pt-6 pb-16 text-center;
+  @apply flex flex-col gap-6 w-full pt-6 pb-16 text-center md:w-1/2 md:p-0 md:justify-center md:text-left;
 }
 h1 {
   @apply text-5xl uppercase;
 }
+p {
+  @apply max-w-xl mx-auto;
+}
 figure {
-  @apply px-8;
+  @apply px-8 md:w-1/2 md:pl-10 md:pr-0 md:flex md:justify-end;
 }
 img {
-  @apply w-full max-w-xs mx-auto;
+  @apply w-full max-w-xs mx-auto md:m-0 md:max-w-sm;
 }
 </style>
