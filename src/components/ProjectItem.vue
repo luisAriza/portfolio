@@ -2,13 +2,22 @@
 div.project-item
 	figure
 		div
-			h3 batatabit: bitcoin tracker
-			a(href="#")  Preview
-			a(href="#") Open
-		img(src="../assets/image.svg", alt="Project image", width="320", height="200")
+			h3 {{ title }}
+			button Preview
+			a(:href="url", target="_blank") Open
+		img(:src="image", alt="Project image", width="320", height="160")
 </template>
 
-<script setup lang="ts"></script>
+<script lang="ts">
+export default {
+  name: "ProjectItem",
+  props: {
+    title: String,
+    url: String,
+    image: String,
+  },
+};
+</script>
 
 <style scoped lang="postcss">
 .project-item {
@@ -18,15 +27,16 @@ figure {
   @apply w-full bg-gray-300;
 }
 img {
-  @apply w-full;
+  @apply w-full h-full;
 }
 div {
-  @apply flex flex-wrap place-content-center gap-4 w-full h-full text-center absolute;
+  @apply flex flex-wrap place-content-center gap-4 w-full h-full text-center absolute bg-semi-transparent;
 }
 h3 {
-  @apply text-2xl capitalize text-white drop-shadow-h3;
+  @apply w-full text-2xl capitalize text-variant drop-shadow-h3;
 }
-a {
-  @apply w-24 px-3 py-2 rounded-lg border border-black;
+a,
+button {
+  @apply w-24 px-3 py-2 rounded-lg text-sm bg-secondary text-primary;
 }
 </style>

@@ -7,6 +7,7 @@ module.exports = {
         primary: "#ff652f",
         secondary: "#0c1a25",
         variant: "#F2FFFF",
+        "semi-transparent": "rgba(0, 0, 0, 0.5)",
       },
       backgroundColor: (theme) => ({
         ...theme("colors"),
@@ -18,7 +19,7 @@ module.exports = {
         Montserrat: ["Montserrat", "sans-serif"],
       },
       dropShadow: {
-        h3: "2px 2px 2px rgba(0, 0, 0, 0.5)",
+        h3: "2px 2px 2px rgba(0, 0, 0, 1)",
       },
     },
   },

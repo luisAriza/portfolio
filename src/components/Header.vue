@@ -22,13 +22,13 @@ export default {
 
 <style scoped lang="postcss">
 header {
-  @apply flex flex-col items-center w-full h-[26rem] px-6 sm:px-10 md:h-auto md:py-5 bg-gradient-to-b from-secondary to-white text-variant;
+  @apply flex flex-col items-center w-full h-[26rem] px-6 sm:px-10 md:h-auto md:py-5 bg-gradient-to-b from-secondary;
 }
 div {
   @apply w-full max-w-5xl md:flex md:flex-wrap;
 }
 article {
-  @apply flex flex-col gap-6 w-full pt-6 pb-16 text-center md:w-1/2 md:p-0 md:justify-center md:text-left;
+  @apply flex flex-col gap-6 w-full pt-6 pb-12 text-center md:w-1/2 md:p-0 md:justify-center md:text-left;
 }
 h1 {
   @apply text-5xl uppercase;

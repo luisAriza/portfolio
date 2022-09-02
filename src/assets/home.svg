@@ -6,7 +6,7 @@
     <defs>
         <linearGradient x1="50%" y1="0%" x2="50%" y2="99.0447173%" id="linearGradient-1">
             <stop stop-color="#B4B5C6" offset="0%"></stop>
-            <stop stop-color="#8F90A1" offset="100%"></stop>
+            <stop stop-color="#F2FFFF" offset="100%"></stop>
         </linearGradient>
     </defs>
     <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">

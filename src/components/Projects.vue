@@ -1,17 +1,13 @@
 <template lang="pug">
 section
 	h2 Projects List
-	ProjectItem
-	ProjectItem
-	ProjectItem
-	ProjectItem
-	ProjectItem
-	ProjectItem
+	ProjectItem(v-for="item in dataProjects", :title="item.title", :url="item.url", :image="item.image")
 	p Mostrar más...
 </template>
 
 <script setup lang="ts">
 import ProjectItem from "./ProjectItem.vue";
+import { dataProjects } from "../utils/DataProjects";
 </script>
 
 <style scoped lang="postcss">
