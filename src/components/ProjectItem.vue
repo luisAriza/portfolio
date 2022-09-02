@@ -30,13 +30,19 @@ img {
   @apply w-full h-full;
 }
 div {
-  @apply flex flex-wrap place-content-center gap-4 w-full h-full text-center absolute bg-semi-transparent;
+  @apply flex flex-wrap place-content-center gap-4 w-full h-full text-center absolute hover:bg-semi-transparent hover:scale-110 transition-all ease-in-out;
 }
 h3 {
-  @apply w-full text-2xl capitalize text-variant drop-shadow-h3;
+  @apply hidden w-full text-2xl capitalize text-variant drop-shadow-h3;
 }
 a,
 button {
-  @apply w-24 px-3 py-2 rounded-lg text-sm bg-secondary text-primary;
+  @apply hidden w-24 p-1.5 rounded-full text-sm border border-variant text-variant hover:bg-primary hover:border-primary transition-all ease-in-out;
+  -webkit-tap-highlight-color: transparent;
+}
+div:hover h3,
+div:hover a,
+div:hover button {
+  @apply block;
 }
 </style>

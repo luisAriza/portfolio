@@ -12,7 +12,7 @@ footer
 
 <style scoped lang="postcss">
 footer {
-  @apply flex flex-col gap-4 items-center p-6 text-center sm:px-10 md:pb-12 bg-gradient-to-t from-secondary to-white;
+  @apply flex flex-col gap-8 items-center p-6 text-center sm:px-10 md:pb-12 bg-gradient-to-t from-secondary to-white;
 }
 p {
   @apply w-60;

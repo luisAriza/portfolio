@@ -22,10 +22,10 @@ export default {
 
 <style scoped lang="postcss">
 header {
-  @apply flex flex-col items-center w-full h-[26rem] px-6 sm:px-10 md:h-auto md:py-5 bg-gradient-to-b from-secondary;
+  @apply flex flex-col items-center w-full px-6 text-secondary sm:px-10 md:py-5;
 }
 div {
-  @apply w-full max-w-5xl md:flex md:flex-wrap;
+  @apply w-full max-w-5xl md:py-12 md:flex md:flex-wrap;
 }
 article {
   @apply flex flex-col gap-6 w-full pt-6 pb-12 text-center md:w-1/2 md:p-0 md:justify-center md:text-left;
@@ -37,7 +37,7 @@ p {
   @apply max-w-xl mx-auto;
 }
 figure {
-  @apply px-8 md:w-1/2 md:pl-10 md:pr-0 md:flex md:justify-end;
+  @apply md:w-1/2 md:pl-10 md:pr-0 md:flex md:justify-end;
 }
 img {
   @apply w-full max-w-xs mx-auto md:m-0 md:max-w-sm;
