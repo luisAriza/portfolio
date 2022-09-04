@@ -6,7 +6,7 @@ header
 			h1 Luis Ariza
 			p Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, quasi sit, ullam unde, minima recusandae fuga laudantium eius quis.
 		figure
-			img(src="../assets/tabs.svg", alt="Image", width="260")
+			img(src="../assets/icons/tabs.svg", alt="Image", width="260")
 </template>
 
 <script lang="ts">
@@ -31,10 +31,10 @@ article {
   @apply flex flex-col gap-6 w-full pt-6 pb-12 text-center md:w-1/2 md:p-0 md:justify-center md:text-left;
 }
 h1 {
-  @apply text-5xl uppercase;
+  @apply text-5xl uppercase font-black;
 }
 p {
-  @apply max-w-xl mx-auto;
+  @apply max-w-xl mx-auto text-xl font-body font-light;
 }
 figure {
   @apply md:w-1/2 md:pl-10 md:pr-0 md:flex md:justify-end;

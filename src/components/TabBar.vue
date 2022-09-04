@@ -2,10 +2,10 @@
 .tab-bar
 	figure
 		a(href="#home")
-			img(src="../assets/home.svg", alt="Home", width="32", height="32")
+			img(src="../assets/icons/home.svg", alt="Home", width="32", height="32")
 		a(href="#projects")
-			img(src="../assets/star.svg", alt="Projects", width="32", height="32")
-		img.night-mode(src="../assets/moon.svg", alt="Home", width="32", height="32")
+			img(src="../assets/icons/star.svg", alt="Projects", width="32", height="32")
+		img.night-mode(src="../assets/icons/moon.svg", alt="Home", width="32", height="32")
 </template>
 
 <script setup lang="ts"></script>

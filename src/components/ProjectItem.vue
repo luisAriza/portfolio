@@ -5,7 +5,7 @@ div.project-item
 			h3 {{ title }}
 			button Preview
 			a(:href="url", target="_blank") Open
-		img(:src="image", alt="Project image", width="320", height="160")
+		img(:src="image", alt="Project image", width="320", height="160", loading="lazy")
 </template>
 
 <script lang="ts">
@@ -33,7 +33,7 @@ div {
   @apply flex flex-wrap place-content-center gap-4 w-full h-full text-center absolute hover:bg-semi-transparent hover:scale-110 transition-all ease-in-out;
 }
 h3 {
-  @apply hidden w-full text-2xl capitalize text-variant drop-shadow-h3;
+  @apply hidden w-full text-2xl capitalize text-variant drop-shadow-h3 font-black tracking-wider;
 }
 a,
 button {

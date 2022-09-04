@@ -16,7 +16,9 @@ module.exports = {
         variant: "#F2FFFF",
       }),
       fontFamily: {
-        Montserrat: ["Montserrat", "sans-serif"],
+        title: ["Josefin", "sans-serif"],
+        body: ["Nunito", "sans-serif"],
+        main: ["SignikaNegative", "sans-serif"],
       },
       dropShadow: {
         h3: "2px 2px 2px rgba(0, 0, 0, 1)",
