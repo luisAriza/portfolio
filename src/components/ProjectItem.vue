@@ -33,11 +33,11 @@ div {
   @apply flex flex-wrap place-content-center gap-4 w-full h-full text-center absolute hover:bg-semi-transparent hover:scale-110 transition-all ease-in-out;
 }
 h3 {
-  @apply hidden w-full text-2xl capitalize text-variant drop-shadow-h3 font-black tracking-wider;
+  @apply hidden w-full text-2xl capitalize drop-shadow-h3 text-white font-black tracking-wider;
 }
 a,
 button {
-  @apply hidden w-24 p-1.5 rounded-full text-sm border border-variant text-variant hover:bg-primary hover:border-primary transition-all ease-in-out;
+  @apply hidden w-20 p-1 rounded-full text-sm border border-white text-white hover:bg-primary hover:border-primary hover:transition-all;
   -webkit-tap-highlight-color: transparent;
 }
 div:hover h3,

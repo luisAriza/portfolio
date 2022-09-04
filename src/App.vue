@@ -15,6 +15,6 @@ import TabBar from "./components/TabBar.vue";
 
 <style scoped lang="postcss">
 main {
-  @apply p-6 pb-12 md:pt-10;
+  @apply px-6 py-12;
 }
 </style>
