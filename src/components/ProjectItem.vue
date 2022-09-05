@@ -24,16 +24,16 @@ export default {
   @apply rounded-xl overflow-hidden sm:max-w-md shadow-md relative;
 }
 figure {
-  @apply w-full bg-gray-300;
+  @apply w-full bg-gray-300 hover:scale-110 transition-all ease-in-out;
 }
 img {
   @apply w-full h-full;
 }
 div {
-  @apply flex flex-wrap place-content-center gap-4 w-full h-full text-center absolute hover:bg-semi-transparent hover:scale-110 transition-all ease-in-out;
+  @apply flex flex-wrap place-content-center gap-4 w-full h-full text-center absolute hover:bg-semi-transparent;
 }
 h3 {
-  @apply hidden w-full text-2xl capitalize drop-shadow-h3 text-white font-black tracking-wider;
+  @apply hidden w-full text-2xl drop-shadow-h3 text-white font-black capitalize;
 }
 a,
 button {

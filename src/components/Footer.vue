@@ -1,7 +1,7 @@
 <template lang="pug">
 footer
 	figure.logo
-		img(src="../assets/icons/image.svg", alt="Logo", width="60", height="60")
+		img(src="../../public/logo_3.png", alt="Logo", width="60", height="60")
 	p Lorem ipsum dolor sit amet consectetur adipisicing elit.
 	figure.social-media
 		img(src="../assets/icons/linkedin.svg", alt="LinkedIn", width="32", height="32")

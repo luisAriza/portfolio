@@ -4,7 +4,7 @@ header
 	div
 		article
 			h1 Hi, I'm
-				strong  Luis Ariza
+				span  Luis Ariza
 				|  and I'm Frontend Developer
 			p I design and code beautifully simple things, and I love what I do.
 		figure
@@ -33,9 +33,9 @@ article {
   @apply flex flex-col gap-8 w-full py-20 text-center md:w-1/2 md:p-0 md:justify-center md:text-left;
 }
 h1 {
-  @apply text-4xl font-main font-bold;
+  @apply text-4xl font-bold;
 }
-h1 strong {
+h1 span {
   text-shadow: 0 0 8px rgba(255, 101, 47, 0.7);
 }
 p {
