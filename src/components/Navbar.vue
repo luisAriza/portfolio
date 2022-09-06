@@ -1,7 +1,7 @@
 <template lang="pug">
 nav
 	figure
-		img(src="../../public/logo_3.png ", alt="Logo", width="48")
+		img(src="/logo_3.png ", alt="Logo", width="48")
 	figure
 		img(src="../assets/icons/moon.svg", alt="Night mode", width="28")
 </template>

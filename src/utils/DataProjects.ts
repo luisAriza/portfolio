@@ -1,9 +1,9 @@
-import google from "../assets/previews/google_clone.webp"
-import batatabit from "../assets/previews/batatabit.webp"
-import lego from "../assets/previews/lego_superhero.webp"
-import conf from "../assets/previews/conf_hawaii.webp"
-import travel from "../assets/previews/travel_page.webp"
-import weather from "../assets/previews/weather.webp"
+import google from "../assets/images/google_clone.webp"
+import batatabit from "../assets/images/batatabit.webp"
+import lego from "../assets/images/lego_superhero.webp"
+import conf from "../assets/images/conf_hawaii.webp"
+import travel from "../assets/images/travel_page.webp"
+import weather from "../assets/images/weather.webp"
 
 interface Projects {
 	title: string;

@@ -8,7 +8,7 @@ header
 				|  and I'm Frontend Developer
 			p I design and code beautifully simple things, and I love what I do.
 		figure
-			img(src="../assets/icons/tabs.svg", alt="Image", width="260")
+			img(src="../assets/images/avatar.svg", alt="Image", width="240")
 </template>
 
 <script lang="ts">
@@ -24,7 +24,7 @@ export default {
 
 <style scoped lang="postcss">
 header {
-  @apply flex flex-col items-center w-full px-6 text-secondary sm:px-10 md:py-5 bg-gradient-to-b from-secondary via-white to-white;
+  @apply flex flex-col items-center w-full px-6 text-secondary sm:px-10 md:py-5;
 }
 div {
   @apply w-full max-w-5xl md:py-10 md:flex md:flex-wrap;
