@@ -5,14 +5,14 @@ module.exports = {
     extend: {
       colors: {
         primary: "#ff652f",
-        secondary: "#0c1a25",
+        secondary: "#011628",
         variant: "#F2FFFF",
-        "semi-transparent": "rgba(0, 0, 0, 0.85)",
+        "semi-transparent": "rgba(0, 0, 0, 0.9)",
       },
       backgroundColor: (theme) => ({
         ...theme("colors"),
         primary: "#ff652f",
-        secondary: "#0c1a25",
+        secondary: "#011628",
         variant: "#F2FFFF",
       }),
       fontFamily: {
@@ -20,7 +20,9 @@ module.exports = {
         body: ["Nunito", "sans-serif"],
       },
       dropShadow: {
-        h3: "2px 2px 2px rgba(0, 0, 0, 1)",
+        title: "2px 2px 2px rgba(0, 0, 0, 1)",
+        img: "0 8px 8px rgba(0, 0, 0, .5)",
+        card: "-4px 4px 6px rgba(0, 0, 0, .25)",
       },
     },
   },

@@ -21,7 +21,7 @@ export default {
 
 <style scoped lang="postcss">
 .project-item {
-  @apply rounded-xl overflow-hidden sm:max-w-md shadow-md relative;
+  @apply rounded-xl overflow-hidden drop-shadow-card relative sm:max-w-md;
 }
 figure {
   @apply w-full bg-gray-300 hover:scale-110 transition-all ease-in-out;
@@ -33,7 +33,7 @@ div {
   @apply flex flex-wrap place-content-center gap-4 w-full h-full text-center absolute hover:bg-semi-transparent;
 }
 h3 {
-  @apply hidden w-full text-2xl drop-shadow-h3 text-white font-black capitalize;
+  @apply hidden w-full text-2xl drop-shadow-title text-white font-black capitalize;
 }
 a,
 button {

@@ -1,14 +1,12 @@
 <template lang="pug">
 header
 	Navbar
-	div
-		article
-			h1 Hi, I'm
-				span  Luis Ariza
-				|  and I'm Frontend Developer
-			p I design and code beautifully simple things, and I love what I do.
-		figure
-			img(src="../assets/images/avatar.svg", alt="Image", width="240")
+	article
+		h1 Hi, I'm
+			span  Luis Ariza
+			|  and I'm Frontend Developer
+		h2 I design and code beautifully simple things, and I love what I do.
+		img.avatar(src="../assets/images/avatar.svg", alt="Image", width="240" height="254")
 </template>
 
 <script lang="ts">
@@ -24,27 +22,21 @@ export default {
 
 <style scoped lang="postcss">
 header {
-  @apply flex flex-col items-center w-full px-6 text-secondary sm:px-10 md:py-5;
-}
-div {
-  @apply w-full max-w-5xl md:py-10 md:flex md:flex-wrap;
+  @apply flex flex-col items-center gap-14 w-full px-6 text-center text-secondary sm:px-10 md:py-5;
 }
 article {
-  @apply flex flex-col gap-8 w-full py-20 text-center md:w-1/2 md:p-0 md:justify-center md:text-left;
+  @apply flex flex-col items-center gap-5 w-full;
 }
 h1 {
-  @apply text-4xl font-bold;
+  @apply font-bold text-3xl md:text-4xl lg:text-[2.5rem];
 }
 h1 span {
   text-shadow: 0 0 8px rgba(255, 101, 47, 0.7);
 }
-p {
-  @apply max-w-xl mx-auto text-2xl font-body font-thin md:text-xl;
+h2 {
+  @apply font-body font-light text-lg md:text-xl;
 }
-figure {
-  @apply py-8 md:w-1/2 md:py-0 md:pr-0 md:flex md:justify-end;
-}
-img {
-  @apply w-full max-w-xs mx-auto md:m-0 md:max-w-sm;
+.avatar {
+  @apply my-6 drop-shadow-img;
 }
 </style>
