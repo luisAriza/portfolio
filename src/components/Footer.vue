@@ -1,9 +1,9 @@
 <template lang="pug">
 footer
-	figure.logo
+	.logo
 		img(src="/logo.png", alt="Logo", width="60", height="60")
 	h3 Lorem ipsum dolor sit amet consectetur adipisicing elit.
-	figure.social-medias
+	.social-medias
 		a(href="https://github.com/luisAriza", target="_blank")
 			img(src="../assets/icons/github.svg", alt="GitHub icon", width="20", height="20")
 		a(href="https://linkedin.com/in/luisariza-dev/", target="_blank")

@@ -5,12 +5,16 @@ div.project-item
 			h3 {{ title }}
 			p description
 			a(:href="url", target="_blank") Go to site
+				ArrowRightCircleIcon.arrow-icon
 		img(:src="image", alt="Project image", width="320", height="160", loading="lazy")
 </template>
 
 <script lang="ts">
+import { ArrowRightCircleIcon } from "@heroicons/vue/20/solid";
+
 export default {
   name: "ProjectItem",
+  components: { ArrowRightCircleIcon },
   props: {
     title: String,
     url: String,
@@ -39,12 +43,17 @@ p {
   @apply hidden w-full px-5 font-body font-light;
 }
 a {
-  @apply hidden w-32 my-2 p-1 rounded-full border border-white hover:border-primary hover:bg-primary hover:transition-all;
+  @apply hidden w-36 my-2 p-1 rounded-full border border-white hover:border-primary hover:bg-primary hover:transition-all;
   -webkit-tap-highlight-color: transparent;
 }
+.arrow-icon {
+  @apply inline w-5 h-5 ml-2;
+}
 div:hover h3,
-div:hover p,
-div:hover a {
+div:hover p {
   @apply block;
+}
+div:hover a {
+  @apply flex items-center justify-center;
 }
 </style>

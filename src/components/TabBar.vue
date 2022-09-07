@@ -2,13 +2,18 @@
 .tab-bar
 	figure
 		a(href="#home")
-			img(src="../assets/icons/home.svg", alt="Home", width="28", height="28")
+			HomeIcon.home.icon
 		a(href="#projects")
-			img(src="../assets/icons/tabs.svg", alt="Projects", width="28", height="28")
-		img.night-mode(src="../assets/icons/sun.svg", alt="Home", width="28", height="28")
+			BriefcaseIcon.star.icon
+		MoonIcon.sun.icon
 </template>
 
-<script setup lang="ts"></script>
+<script lang="ts">
+import { HomeIcon, BriefcaseIcon, MoonIcon } from "@heroicons/vue/24/solid";
+export default {
+  components: { HomeIcon, BriefcaseIcon, MoonIcon },
+};
+</script>
 
 <style scoped lang="postcss">
 .tab-bar {
@@ -19,5 +24,8 @@ figure {
   @apply flex justify-around;
 }
 .night-mode {
+}
+.icon {
+  @apply h-6 w-6 text-white;
 }
 </style>

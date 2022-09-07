@@ -3,12 +3,15 @@ nav
 	figure
 		img(src="/logo.png ", alt="Logo", width="48", height="48")
 	figure
-		img(src="../assets/icons/moon.svg", alt="Night mode", width="28", height="28")
+		MoonIcon.moon-icon
 </template>
 
 <script lang="ts">
+import { MoonIcon } from "@heroicons/vue/24/solid";
+
 export default {
   name: "Navbar",
+  components: { MoonIcon },
 };
 </script>
 
@@ -22,5 +25,8 @@ figure:first-child {
 }
 figure:last-child {
   @apply hidden sm:block cursor-pointer;
+}
+.moon-icon {
+  @apply w-6 h-6 text-secondary;
 }
 </style>
