@@ -2,22 +2,27 @@
 div.project-item
 	figure
 		div
-			h3 {{ title }}
-			p description
-			a(:href="url", target="_blank") Go to site
-				ArrowRightCircleIcon.arrow-icon
+			p {{ description }}
+			a.repo(:href="repo", target="_blank") Code
+				CodeBracketSquareIcon.icon
+			a.site(:href="site", target="_blank") Go to site
+				ArrowRightCircleIcon.icon
 		img(:src="image", alt="Project image", width="320", height="160", loading="lazy")
 </template>
 
 <script lang="ts">
-import { ArrowRightCircleIcon } from "@heroicons/vue/20/solid";
+import {
+  ArrowRightCircleIcon,
+  CodeBracketSquareIcon,
+} from "@heroicons/vue/20/solid";
 
 export default {
   name: "ProjectItem",
-  components: { ArrowRightCircleIcon },
+  components: { ArrowRightCircleIcon, CodeBracketSquareIcon },
   props: {
-    title: String,
-    url: String,
+    description: String,
+    repo: String,
+    site: String,
     image: String,
   },
 };
@@ -28,32 +33,29 @@ export default {
   @apply rounded-xl overflow-hidden drop-shadow-card relative sm:max-w-md;
 }
 figure {
-  @apply w-full bg-gray-100 hover:scale-110 transition-all ease-in-out;
+  @apply w-full bg-gray-100 hover:scale-110 ease-in-out duration-300;
 }
 img {
   @apply w-full h-full;
 }
 div {
-  @apply flex flex-wrap place-content-center gap-2 w-full h-full text-center text-white absolute hover:bg-semi-transparent;
-}
-h3 {
-  @apply hidden w-full text-xl font-bold capitalize;
+  @apply flex flex-wrap place-content-center gap-5 w-full h-full text-center text-white absolute hover:bg-semi-transparent;
 }
 p {
-  @apply hidden w-full px-5 font-body font-light;
+  @apply hidden w-72 text-sm font-body;
 }
 a {
-  @apply hidden w-36 my-2 p-1 rounded-full border border-white hover:border-primary hover:bg-primary hover:transition-all;
+  @apply hidden pt-1.5 pb-0.5 px-4 rounded-full border border-white hover:border-primary hover:bg-primary ease-in-out duration-300;
   -webkit-tap-highlight-color: transparent;
 }
-.arrow-icon {
-  @apply inline w-5 h-5 ml-2;
+.icon {
+  @apply inline w-5 h-5 ml-2 text-white;
 }
 div:hover h3,
 div:hover p {
   @apply block;
 }
 div:hover a {
-  @apply flex items-center justify-center;
+  @apply flex;
 }
 </style>

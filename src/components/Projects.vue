@@ -1,7 +1,7 @@
 <template lang="pug">
 section
 	h2 My Recent Projects
-	ProjectItem(v-for="item in dataProjects", :title="item.title", :url="item.url", :image="item.image")
+	ProjectItem(v-for="item in dataProjects", :description="item.description", :repo="item.repo", :site="item.site", :image="item.image")
 	p Show more...
 </template>
 

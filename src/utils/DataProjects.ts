@@ -12,70 +12,83 @@ import yard from "../assets/images/yard_sale.webp"
 import todo from "../assets/images/todo.webp"
 
 interface Projects {
-	title: string;
-	url: string;
+	description: string;
+	repo: String;
+	site: string;
 	image: string;
 }
 
 export const dataProjects: Projects[] = [
 	{
-		title: "to do",
-		url: "https://luis-ariza-todo.netlify.app/",
+		description: "To do application developed with the VueJs and Tailwindcss framework, for data persistence I used LocalStorage.",
+		repo: "https://github.com/luisAriza/todo-vue/",
+		site: "https://luis-ariza-todo.netlify.app/",
 		image: todo
 	},
 	{
-		title: "yard sale",
-		url: "https://luisariza-yardsale.netlify.app/",
+		description: "E-Commerce of products and services developed with ReactJs.",
+		repo: "https://github.com/luisAriza/yard_sale-react/",
+		site: "https://luisariza-yardsale.netlify.app/",
 		image: yard
 	},
 	{
-		title: "rick and morty",
-		url: "https://luisariza-rick-and-morty.netlify.app/",
+		description: "Single Page Application developed with JavaScript using the Rick and Morty API. This API has the information of each character.",
+		repo: "https://github.com/luisAriza/rick_and_morty/",
+		site: "https://luisariza-rick-and-morty.netlify.app/",
 		image: rick
 	},
 	{
-		title: "math website",
-		url: "https://luisariza.github.io/math_webSite/",
+		description: "Math app to calculate perimeters, areas, price, discounts, as well as mean, average, and mode from a data list.",
+		repo: "https://github.com/luisAriza/math_webSite/",
+		site: "https://luisariza.github.io/math_webSite/",
 		image: math
 	},
 	{
-		title: "weather app",
-		url: "https://luisariza.github.io/weather/",
+		description: "Weather app for different locations, developed with the Open Weather API. I used LocalStorage for data persistence.",
+		repo: "https://github.com/luisAriza/weather/",
+		site: "https://luisariza.github.io/weather/",
 		image: weather
 	},
 	{
-		title: "quiz app",
-		url: "https://luisariza.github.io/quiz/",
+		description: "Quiz app for developers developed whit OOP Paradigm and JavaScript.",
+		repo: "https://github.com/luisAriza/quiz/",
+		site: "https://luisariza.github.io/quiz/",
 		image: quiz
 	},
 	{
-		title: "products app",
-		url: "https://luisariza.github.io/products/",
+		description: "App to add products developed whit OOP Paradigm and JavaScript.",
+		repo: "https://github.com/luisAriza/products/",
+		site: "https://luisariza.github.io/products/",
 		image: products
 	},
 	{
-		title: "travel page",
-		url: "https://luisariza.github.io/travel_page/",
+		description: "This is a travel landing page mockup designed and developed with Tailwindcss, Postcss, Pug and JavaScript.",
+		repo: "https://github.com/luisAriza/travel_page/",
+		site: "https://luisariza.github.io/travel_page/",
 		image: travel
 	},
 	{
-		title: "Lego superhero",
-		url: "https://luisariza.github.io/lego_superhero/",
+		description: "Lego superhero page made with pure HTML, CSS and JavaScript, its appeal is in the eye-catching animations.",
+		repo: "https://github.com/luisAriza/lego_superhero/",
+		site: "https://luisariza.github.io/lego_superhero/",
 		image: lego
 	},
 	{
-		title: "conf en hawaii",
-		url: "https://luisariza.github.io/conf_hawaii/",
+		description: "Promotional page for a conference in Hawaii about news from the tech world, developed with Bootstrap.",
+		repo: "https://github.com/luisAriza/conf_hawaii/",
+		site: "https://luisariza.github.io/conf_hawaii/",
 		image: conf
 	},
 	{
-		title: "batatabit",
-		url: "https://luisariza.github.io/batatabit/",
+		description: "Mockup of the Batatabit page made with pure HTML and CSS, applying breakpoints to be able to see it on mobile, tablet and desktop.",
+		repo: "https://github.com/luisAriza/batatabit/",
+		site: "https://luisariza.github.io/batatabit/",
 		image: batatabit
 	},
 	{
-		title: "google clone",
-		url: "https://luisariza.github.io/google_clone/",
+		description: "In this project the Google search engine was cloned with pure HTML and CSS.",
+		repo: "https://github.com/luisAriza/google_clone/",
+		site: "https://luisariza.github.io/google_clone/",
 		image: google
 	},
 ];
