@@ -1,9 +1,9 @@
 <template lang="pug">
 nav
 	figure
-		img(src="/logo.png ", alt="Logo", width="48")
+		img(src="/logo.png ", alt="Logo", width="48", height="48")
 	figure
-		img(src="../assets/icons/moon.svg", alt="Night mode", width="28")
+		img(src="../assets/icons/moon.svg", alt="Night mode", width="28", height="28")
 </template>
 
 <script lang="ts">

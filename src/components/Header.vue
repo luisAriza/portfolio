@@ -22,7 +22,7 @@ export default {
 
 <style scoped lang="postcss">
 header {
-  @apply flex flex-col items-center gap-12 w-full p-6 text-center text-secondary sm:px-10 md:py-6;
+  @apply flex flex-col items-center gap-12 w-full p-6 text-center sm:px-10 md:py-6;
 }
 article {
   @apply flex flex-col items-center gap-5 w-full;
