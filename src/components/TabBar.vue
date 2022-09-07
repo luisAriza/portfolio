@@ -12,7 +12,7 @@
 
 <style scoped lang="postcss">
 .tab-bar {
-  @apply p-3 sticky bottom-0 sm:hidden bg-secondary;
+  @apply p-3 sticky bottom-0 sm:hidden bg-secondary border-t border-slate-800;
   -webkit-tap-highlight-color: transparent;
 }
 figure {

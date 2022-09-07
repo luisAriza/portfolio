@@ -18,7 +18,7 @@ nav {
   -webkit-tap-highlight-color: transparent;
 }
 figure:first-child {
-  @apply w-10 lg:w-12;
+  @apply w-12;
 }
 figure:last-child {
   @apply hidden sm:block cursor-pointer;

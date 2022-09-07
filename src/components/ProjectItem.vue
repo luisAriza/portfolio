@@ -3,8 +3,8 @@ div.project-item
 	figure
 		div
 			h3 {{ title }}
-			button Preview
-			a(:href="url", target="_blank") Open
+			p description
+			a(:href="url", target="_blank") Go to site
 		img(:src="image", alt="Project image", width="320", height="160", loading="lazy")
 </template>
 
@@ -24,25 +24,27 @@ export default {
   @apply rounded-xl overflow-hidden drop-shadow-card relative sm:max-w-md;
 }
 figure {
-  @apply w-full bg-gray-300 hover:scale-110 transition-all ease-in-out;
+  @apply w-full bg-gray-100 hover:scale-110 transition-all ease-in-out;
 }
 img {
   @apply w-full h-full;
 }
 div {
-  @apply flex flex-wrap place-content-center gap-4 w-full h-full text-center absolute hover:bg-semi-transparent;
+  @apply flex flex-wrap place-content-center gap-2 w-full h-full text-center text-white absolute hover:bg-semi-transparent;
 }
 h3 {
-  @apply hidden w-full text-2xl drop-shadow-title text-white font-black capitalize;
+  @apply hidden w-full text-xl font-bold capitalize;
 }
-a,
-button {
-  @apply hidden w-20 p-1 rounded-full text-sm border border-white text-white hover:bg-primary hover:border-primary hover:transition-all;
+p {
+  @apply hidden w-full px-5 font-body font-light;
+}
+a {
+  @apply hidden w-32 my-2 p-1 rounded-full border border-white hover:border-primary hover:bg-primary hover:transition-all;
   -webkit-tap-highlight-color: transparent;
 }
 div:hover h3,
-div:hover a,
-div:hover button {
+div:hover p,
+div:hover a {
   @apply block;
 }
 </style>
