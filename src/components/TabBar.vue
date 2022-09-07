@@ -4,8 +4,8 @@
 		a(href="#home")
 			img(src="../assets/icons/home.svg", alt="Home", width="28", height="28")
 		a(href="#projects")
-			img(src="../assets/icons/star.svg", alt="Projects", width="28", height="28")
-		img.night-mode(src="../assets/icons/moon.svg", alt="Home", width="28", height="28")
+			img(src="../assets/icons/tabs.svg", alt="Projects", width="28", height="28")
+		img.night-mode(src="../assets/icons/sun.svg", alt="Home", width="28", height="28")
 </template>
 
 <script setup lang="ts"></script>
