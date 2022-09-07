@@ -31,7 +31,7 @@ h1 {
   @apply font-bold text-3xl md:text-4xl lg:text-[2.5rem];
 }
 h1 span {
-  text-shadow: 0 0 8px rgba(255, 101, 47, 0.6);
+  text-shadow: 0 0 8px rgba(255, 101, 47, 0.5);
 }
 h2 {
   @apply font-body font-light text-lg md:text-xl;

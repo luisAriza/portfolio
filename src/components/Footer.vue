@@ -1,7 +1,7 @@
 <template lang="pug">
 footer
 	figure.logo
-		img(src="/logo_3.png", alt="Logo", width="60", height="60")
+		img(src="/logo.png", alt="Logo", width="60", height="60")
 	h3 Lorem ipsum dolor sit amet consectetur adipisicing elit.
 	figure.social-medias
 		a(href="https://github.com/luisAriza", target="_blank")
