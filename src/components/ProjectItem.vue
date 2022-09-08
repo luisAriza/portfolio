@@ -38,24 +38,22 @@ figure {
 img {
   @apply w-full h-full;
 }
-div {
-  @apply flex flex-wrap place-content-center gap-5 w-full h-full text-center text-white absolute hover:bg-semi-transparent;
+figure div {
+  @apply flex flex-wrap place-content-center gap-5 w-full h-full text-center text-white absolute opacity-0 bg-gradient-to-tr from-slate-600 to-secondary dark:to-black;
 }
 p {
-  @apply hidden w-72 text-sm font-body;
+  @apply w-full opacity-0 px-8 text-sm font-body;
 }
 a {
-  @apply hidden pt-1.5 pb-0.5 px-4 rounded-full border border-white hover:border-primary hover:bg-primary ease-in-out duration-300;
+  @apply flex opacity-0 pt-1.5 pb-0.5 px-4 rounded-full border border-white hover:border-primary hover:bg-primary ease-in-out duration-300;
   -webkit-tap-highlight-color: transparent;
 }
 .icon {
   @apply inline w-5 h-5 ml-2 text-white;
 }
-div:hover h3,
-div:hover p {
-  @apply block;
-}
-div:hover a {
-  @apply flex;
+figure:hover div,
+figure:hover p,
+figure:hover a {
+  @apply ease-in-out duration-300 opacity-100;
 }
 </style>

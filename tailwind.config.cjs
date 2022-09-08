@@ -8,7 +8,6 @@ module.exports = {
         primary: "#ff652f",
         secondary: "#011628",
         variant: "#F2FFFF",
-        "semi-transparent": "rgba(1, 22, 40, 0.95)",
       },
       backgroundColor: (theme) => ({
         ...theme("colors"),
@@ -21,8 +20,8 @@ module.exports = {
         body: ["Nunito", "sans-serif"],
       },
       dropShadow: {
-        img: "0 8px 4px rgba(0, 0, 0, .35)",
-        card: "-4px 4px 6px rgba(0, 0, 0, .2)",
+        img: "0 8px 4px rgba(0, 0, 0, .33)",
+        card: "0 0 8px rgba(0, 0, 0, .33)",
       },
     },
   },

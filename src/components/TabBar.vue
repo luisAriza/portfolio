@@ -5,13 +5,15 @@
 			HomeIcon.home.icon
 		a(href="#projects")
 			BriefcaseIcon.star.icon
-		MoonIcon.sun.icon
+		DarkMode
 </template>
 
 <script lang="ts">
-import { HomeIcon, BriefcaseIcon, MoonIcon } from "@heroicons/vue/24/solid";
+import { HomeIcon, BriefcaseIcon } from "@heroicons/vue/24/solid";
+import DarkMode from "./DarkMode.vue";
+
 export default {
-  components: { HomeIcon, BriefcaseIcon, MoonIcon },
+  components: { HomeIcon, BriefcaseIcon, DarkMode },
 };
 </script>
 
@@ -22,8 +24,6 @@ export default {
 }
 figure {
   @apply flex justify-around;
-}
-.night-mode {
 }
 .icon {
   @apply h-6 w-6 text-white;

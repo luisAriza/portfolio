@@ -22,7 +22,7 @@ export default {
 
 <style scoped lang="postcss">
 header {
-  @apply flex flex-col items-center gap-12 w-full p-6 text-center sm:px-10 md:py-6;
+  @apply flex flex-col items-center gap-12 w-full px-6 text-center sm:px-10;
 }
 article {
   @apply flex flex-col items-center gap-5 w-full;
@@ -34,7 +34,7 @@ h1 span {
   text-shadow: 0 0 8px rgba(255, 101, 47, 0.5);
 }
 h2 {
-  @apply font-body font-light text-lg md:text-xl;
+  @apply font-body font-light text-lg md:text-xl dark:text-slate-400;
 }
 .avatar {
   @apply w-48 my-6 drop-shadow-img md:w-60;

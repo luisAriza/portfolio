@@ -2,31 +2,28 @@
 nav
 	figure
 		img(src="/logo.png ", alt="Logo", width="48", height="48")
-	figure
-		MoonIcon.moon-icon
+	div
+		DarkMode
 </template>
 
 <script lang="ts">
-import { MoonIcon } from "@heroicons/vue/24/solid";
+import DarkMode from "./DarkMode.vue";
 
 export default {
   name: "Navbar",
-  components: { MoonIcon },
+  components: { DarkMode },
 };
 </script>
 
 <style scoped lang="postcss">
 nav {
-  @apply flex items-center justify-between w-full max-w-5xl py-4;
+  @apply flex items-center justify-between w-full max-w-5xl py-6;
   -webkit-tap-highlight-color: transparent;
 }
-figure:first-child {
+figure {
   @apply w-12;
 }
-figure:last-child {
+div {
   @apply hidden sm:block cursor-pointer;
-}
-.moon-icon {
-  @apply w-6 h-6 text-secondary;
 }
 </style>
