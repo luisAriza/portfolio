@@ -1,8 +1,8 @@
 <template lang="pug">
 section
-	h2 My Recent Projects
+	h2 Proyectos Recientes
 	ProjectItem(v-for="item in dataProjects", :description="item.description", :repo="item.repo", :site="item.site", :image="item.image")
-	//- p Show more...
+	//- p Mostrar más...
 </template>
 
 <script setup lang="ts">

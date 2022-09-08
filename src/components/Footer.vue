@@ -2,7 +2,7 @@
 footer
 	.logo
 		img(src="/logo.png", alt="Logo", width="60", height="60")
-	h3 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+	h3 Abre tu mente, aprende, aplica y se mejor cada día.
 	.social-medias
 		a(href="https://github.com/luisAriza", target="_blank")
 			img(src="../assets/icons/github.svg", alt="GitHub icon", width="20", height="20")
@@ -22,7 +22,7 @@ footer {
   @apply grid gap-10 place-items-center px-6 py-14 text-center bg-secondary border-t border-slate-800 sm:px-10 md:py-20 md:grid-cols-2 md:gap-5;
 }
 h3 {
-  @apply w-72 text-xl font-body text-slate-600 md:row-start-2;
+  @apply w-64 text-xl font-body text-slate-600 md:row-start-2;
 }
 .social-medias {
   @apply flex gap-6 m-3 md:col-start-2;

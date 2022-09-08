@@ -3,9 +3,9 @@ div.project-item
 	figure
 		div.content
 			p {{ description }}
-			a.repo(:href="repo", target="_blank") View code
+			a.repo(:href="repo", target="_blank") Ver código
 				CodeBracketSquareIcon.code.icon
-			a.site(:href="site", target="_blank") Visit website
+			a.site(:href="site", target="_blank") Ver website
 				ArrowRightCircleIcon.arrow.icon
 		img(:src="image", alt="Project image", width="320", height="160", loading="lazy")
 </template>
@@ -39,7 +39,7 @@ img {
   @apply w-full h-full;
 }
 .content {
-  @apply flex flex-wrap place-content-center gap-5 w-full h-full text-center text-white absolute opacity-0 bg-gradient-to-tr from-slate-600 to-secondary dark:to-black duration-500;
+  @apply flex flex-wrap place-content-center gap-y-4 gap-x-2 w-full h-full text-center text-white absolute opacity-0 bg-gradient-to-tr from-slate-600 to-secondary dark:to-black duration-500;
 }
 p {
   @apply w-full opacity-0 px-8 text-sm font-body;

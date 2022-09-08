@@ -17,7 +17,7 @@ export default {
 
 <style scoped lang="postcss">
 nav {
-  @apply flex items-center justify-between w-full max-w-5xl py-6 md:border-b border-slate-100 dark:border-slate-800 duration-200;
+  @apply flex items-center justify-between w-full max-w-5xl py-6;
   -webkit-tap-highlight-color: transparent;
 }
 figure {
