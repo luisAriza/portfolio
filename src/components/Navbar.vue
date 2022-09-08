@@ -17,13 +17,13 @@ export default {
 
 <style scoped lang="postcss">
 nav {
-  @apply flex items-center justify-between w-full max-w-5xl py-6;
+  @apply flex items-center justify-between w-full max-w-5xl py-6 md:border-b border-slate-100 dark:border-slate-800 duration-200;
   -webkit-tap-highlight-color: transparent;
 }
 figure {
   @apply w-12;
 }
 div {
-  @apply hidden sm:block cursor-pointer;
+  @apply hidden sm:flex cursor-pointer;
 }
 </style>

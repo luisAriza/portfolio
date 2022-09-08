@@ -19,13 +19,13 @@ export default {
 
 <style scoped lang="postcss">
 .tab-bar {
-  @apply p-3 sticky bottom-0 sm:hidden bg-secondary border-t border-slate-800;
+  @apply p-3 sticky bottom-0 sm:hidden bg-white border-t border-gray-200 dark:bg-inherit dark:border-slate-800;
   -webkit-tap-highlight-color: transparent;
 }
 figure {
   @apply flex justify-around;
 }
 .icon {
-  @apply h-6 w-6 text-white;
+  @apply h-6 w-6 text-secondary dark:text-white duration-200;
 }
 </style>

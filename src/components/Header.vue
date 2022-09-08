@@ -37,6 +37,6 @@ h2 {
   @apply font-body font-light text-lg md:text-xl dark:text-slate-400;
 }
 .avatar {
-  @apply w-48 my-6 drop-shadow-img md:w-60;
+  @apply w-48 my-8 drop-shadow-img md:w-60;
 }
 </style>

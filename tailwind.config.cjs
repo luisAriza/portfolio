@@ -5,15 +5,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#ff652f",
+        primary: "#FF7847",
         secondary: "#011628",
-        variant: "#F2FFFF",
+        variant: "#F2F2E3",
       },
       backgroundColor: (theme) => ({
         ...theme("colors"),
-        primary: "#ff652f",
+        primary: "#FF7847",
         secondary: "#011628",
-        variant: "#F2FFFF",
+        variant: "#F2F2E3",
       }),
       fontFamily: {
         main: ["Josefin", "sans-serif"],

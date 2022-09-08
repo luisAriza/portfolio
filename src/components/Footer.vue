@@ -29,7 +29,7 @@ h3 {
   -webkit-tap-highlight-color: transparent;
 }
 .social-medias a {
-  @apply p-3 border-2 border-slate-600 hover:border-primary hover:bg-primary rounded-full ease-in-out duration-500;
+  @apply p-3 border-2 border-slate-600 hover:border-white rounded-full duration-300;
 }
 span {
   @apply text-sm text-slate-600;

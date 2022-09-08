@@ -14,12 +14,12 @@ const toggleDark = useToggle(isDark);
 
 <style scoped lang="postcss">
 .icon {
-  @apply w-6 h-6 active:translate-y-2 active:opacity-0 ease-in-out duration-200;
+  @apply w-6 h-6 active:translate-y-4 duration-100 active:opacity-0;
 }
 .sun {
   @apply text-yellow-400;
 }
 .moon {
-  @apply text-slate-400;
+  @apply text-slate-600;
 }
 </style>

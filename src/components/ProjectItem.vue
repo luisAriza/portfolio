@@ -1,12 +1,12 @@
 <template lang="pug">
 div.project-item
 	figure
-		div
+		div.content
 			p {{ description }}
-			a.repo(:href="repo", target="_blank") Code
-				CodeBracketSquareIcon.icon
-			a.site(:href="site", target="_blank") Go to site
-				ArrowRightCircleIcon.icon
+			a.repo(:href="repo", target="_blank") View code
+				CodeBracketSquareIcon.code.icon
+			a.site(:href="site", target="_blank") Visit website
+				ArrowRightCircleIcon.arrow.icon
 		img(:src="image", alt="Project image", width="320", height="160", loading="lazy")
 </template>
 
@@ -33,27 +33,36 @@ export default {
   @apply rounded-xl overflow-hidden drop-shadow-card relative sm:max-w-md;
 }
 figure {
-  @apply w-full bg-gray-100 hover:scale-110 ease-in-out duration-300;
+  @apply w-full bg-gray-100 hover:scale-110 duration-200;
 }
 img {
   @apply w-full h-full;
 }
-figure div {
-  @apply flex flex-wrap place-content-center gap-5 w-full h-full text-center text-white absolute opacity-0 bg-gradient-to-tr from-slate-600 to-secondary dark:to-black;
+.content {
+  @apply flex flex-wrap place-content-center gap-5 w-full h-full text-center text-white absolute opacity-0 bg-gradient-to-tr from-slate-600 to-secondary dark:to-black duration-500;
 }
 p {
   @apply w-full opacity-0 px-8 text-sm font-body;
 }
 a {
-  @apply flex opacity-0 pt-1.5 pb-0.5 px-4 rounded-full border border-white hover:border-primary hover:bg-primary ease-in-out duration-300;
+  @apply flex opacity-0 pt-1.5 pb-1 px-3 rounded-full border duration-200;
   -webkit-tap-highlight-color: transparent;
 }
-.icon {
-  @apply inline w-5 h-5 ml-2 text-white;
+.repo {
+  @apply border-white hover:bg-white hover:text-secondary;
 }
-figure:hover div,
+.site {
+  @apply border-primary bg-primary hover:border-orange-700 hover:bg-orange-700;
+}
+.icon {
+  @apply inline w-5 h-5 ml-2 text-white mt-[1px];
+}
+.repo:hover .code {
+  @apply text-secondary duration-200;
+}
+figure:hover .content,
 figure:hover p,
 figure:hover a {
-  @apply ease-in-out duration-300 opacity-100;
+  @apply duration-200 opacity-100;
 }
 </style>
