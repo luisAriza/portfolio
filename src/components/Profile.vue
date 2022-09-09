@@ -2,10 +2,14 @@
 section.profile-container
 	article.profile
 		h2 Hola, soy Luis Ariza. Gusto en conocerte.
-		p Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos et consectetur itaque nulla, tempore minus atque, veritatis perspiciatis sunt officia sed magnam impedit? Labore facilis dolorem repellendus minima veritatis voluptatibus.
+		p Soy desarrollador web autodidacta, me apasiona darle vida a páginas y aplicaciones web con el objetivo de asegurar el funcionamiento con el navegador, la accesibilidad del usuario y un buen performance. En mis trabajos se destaca una interfaz de usuario intuitiva y agradable a la vista, además de buenas prácticas y documentación del código.
+		a(href="/logo.png" download="brand") Descargar Curriculum
+			DocumentArrowDownIcon.icon
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { DocumentArrowDownIcon } from "@heroicons/vue/24/solid";
+</script>
 
 <style lang="postcss" scoped>
 .profile {
@@ -16,5 +20,11 @@ h2 {
 }
 p {
   @apply max-w-2xl font-body text-xl;
+}
+a {
+  @apply mt-2 px-4 py-2 border border-white rounded-md;
+}
+.icon {
+  @apply inline w-5 h-5 ml-2 mb-1 text-white;
 }
 </style>

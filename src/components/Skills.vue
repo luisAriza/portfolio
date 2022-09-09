@@ -4,10 +4,10 @@ section.skills-container
 		.icon
 			CommandLineIcon
 		h3.title Skills
-		p Disfruto diseñar y desarrollar desde cero ideas en el navegador con las mejores prácticas.
-		h4.subtitle Lenguajes y Frameworks
+		p Disfruto diseñar y desarrollar desde cero interfaces, sitios y aplicaciones web  en el navegador con las mejores prácticas.
+		h4.subtitle Lenguajes
 		p HTML, CSS, JavaScript, Bootstrap, Tailwindcss, Git, Pug, Sass, Postcss, VueJs, ReactJs.
-		h4.subtitle Herramientas de desarrollo
+		h4.subtitle Herramientas
 		ul(v-for="tool in tools")
 			li {{ tool }}
 </template>
@@ -47,7 +47,7 @@ const tools: String[] = [
   @apply mb-2 text-xl text-variant;
 }
 p {
-  @apply max-w-xs mx-auto mb-10 font-body text-lg;
+  @apply max-w-sm mx-auto mb-10 font-body text-lg;
 }
 li {
   @apply mb-1 font-body text-lg;
