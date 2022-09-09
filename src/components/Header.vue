@@ -16,7 +16,7 @@ import Navbar from "./Navbar.vue";
 
 <style scoped lang="postcss">
 header {
-  @apply flex flex-col items-center w-full px-6 md:px-8;
+  @apply flex flex-col items-center w-full px-6;
 }
 .presentation {
   @apply flex flex-col items-center pt-6 pb-20 text-center;

@@ -6,7 +6,7 @@ section.skills-container
 		h3.title Skills
 		p Disfruto diseñar y desarrollar desde cero interfaces, sitios y aplicaciones web  en el navegador con las mejores prácticas.
 		h4.subtitle Lenguajes
-		p HTML, CSS, JavaScript, Bootstrap, Tailwindcss, Git, Pug, Sass, Postcss, VueJs, ReactJs.
+		p HTML, CSS, JavaScript, TypeScript, Bootstrap, Tailwindcss, Git, Pug, Sass, Postcss, VueJs, ReactJs.
 		h4.subtitle Herramientas
 		ul(v-for="tool in tools")
 			li {{ tool }}

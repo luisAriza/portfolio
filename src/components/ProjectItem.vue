@@ -7,7 +7,7 @@ div.project-item
 				CodeBracketSquareIcon.code-icon.icon
 			a.btn-site.btn(:href="site", target="_blank") Ver website
 				ArrowRightCircleIcon.arrow-icon.icon
-		img.bg-img(:src="image", alt="Project image", width="320", height="320", loading="lazy")
+		img.bg-img(:src="image", alt="Project image", width="360", height="360", loading="lazy")
 </template>
 
 <script lang="ts">
@@ -39,7 +39,7 @@ export default {
   @apply flex flex-wrap place-content-center gap-4 w-full h-full opacity-0 duration-300 absolute;
 }
 .content:hover .description {
-  @apply opacity-100 duration-300;
+  @apply opacity-100 duration-300 z-10;
 }
 p {
   @apply max-w-md px-6 text-xl font-body;
@@ -60,9 +60,9 @@ p {
   @apply text-secondary duration-300;
 }
 .bg-img {
-  @apply w-full h-full duration-500 hover:opacity-0;
+  @apply w-full h-full duration-500;
 }
 .content:hover .bg-img {
-  @apply scale-125 opacity-0 duration-500;
+  @apply scale-110 opacity-0 duration-500;
 }
 </style>

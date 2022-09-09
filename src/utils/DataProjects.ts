@@ -7,9 +7,9 @@ import weather from "../assets/images/weather.webp"
 import products from "../assets/images/products_app.webp"
 import quiz from "../assets/images/quiz.webp"
 import math from "../assets/images/math.webp"
-import rick from "../assets/images/rick_morty.webp"
-import yard from "../assets/images/yard_sale.webp"
-import todo from "../assets/images/todo.webp"
+import rick from "../assets/images/rick_morty.png"
+import yard from "../assets/images/yard_sale.png"
+import todo from "../assets/images/todo.png"
 
 interface Projects {
 	description: string;

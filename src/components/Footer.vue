@@ -13,6 +13,8 @@ footer
 			span Made with
 			a(href="https://tailwindcss.com/", target="_blank")
 				img(src="../assets/icons/tailwind.svg" alt="Tailwindcss icon", width="140", height="20")
+			span Strong inspiration from
+				a(href="https://mattfarley.ca/", target="_blank")  - Mattfarley.ca -
 </template>
 
 <script setup lang="ts"></script>
@@ -34,6 +36,9 @@ footer
   @apply p-3 border-2 border-slate-600 hover:border-white rounded-full duration-300;
 }
 .made span {
-  @apply text-sm text-slate-600;
+  @apply text-xs text-slate-600;
+}
+.made img {
+  @apply mb-4 mx-auto;
 }
 </style>

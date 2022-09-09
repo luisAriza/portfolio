@@ -25,6 +25,7 @@ body {
 }
 
 a,
-svg {
+svg,
+button {
   -webkit-tap-highlight-color: transparent;
 }

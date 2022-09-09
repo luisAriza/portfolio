@@ -15,7 +15,7 @@ import DarkMode from "./DarkMode.vue";
 
 <style scoped lang="postcss">
 .tab-bar {
-  @apply p-3 sticky bottom-0 bg-white border-t border-gray-200 sm:hidden dark:bg-inherit dark:border-slate-800;
+  @apply p-3 sticky bottom-0 bg-white border-t border-gray-200 sm:hidden dark:bg-secondary dark:border-slate-800 duration-200;
 }
 figure {
   @apply flex justify-around;

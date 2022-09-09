@@ -17,9 +17,9 @@ const toggleDark = useToggle(isDark);
   @apply w-6 h-6 active:-translate-x-2 duration-200 active:opacity-0;
 }
 .sun {
-  @apply text-yellow-400;
+  @apply text-white;
 }
 .moon {
-  @apply text-slate-600;
+  @apply text-secondary;
 }
 </style>
