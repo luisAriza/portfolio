@@ -1,8 +1,8 @@
 <template lang="pug">
-nav
-	figure
-		img(src="/logo.png ", alt="Logo", width="48", height="48")
-	div
+nav.navbar
+	figure.logo
+		img(src="/logo.png ", alt="Logo", width="40", height="58")
+	.dark-mode
 		DarkMode
 </template>
 
@@ -16,14 +16,14 @@ export default {
 </script>
 
 <style scoped lang="postcss">
-nav {
-  @apply flex items-center justify-between w-full max-w-5xl py-6;
+.navbar {
+  @apply flex items-center justify-between w-full h-36 max-w-5xl py-4;
   -webkit-tap-highlight-color: transparent;
 }
-figure {
-  @apply w-12;
+.logo {
+  @apply w-10;
 }
-div {
+.dark-mode {
   @apply hidden sm:flex cursor-pointer;
 }
 </style>
