@@ -3,7 +3,7 @@
 	figure
 		a(href="#home")
 			HomeIcon.home.icon
-		a(href="#projects")
+		a(href="#portfolio")
 			BriefcaseIcon.star.icon
 		DarkMode
 </template>

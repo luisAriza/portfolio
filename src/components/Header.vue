@@ -1,12 +1,12 @@
 <template lang="pug">
-header
+header(id="home")
 	Navbar
 	section
 		article.presentation
 			h1 Frontend Developer
 			h2 Diseño y desarrollo interfaces web gráficas, y me encanta lo que hago.
 			img.avatar(src="../assets/images/avatar.svg", alt="Avatar", width="240" height="254")
-		figure.design
+		figure.ui-design
 			img(src="../assets/images/ui-design.svg", alt="background", width="768", height="248")
 </template>
 
@@ -37,7 +37,7 @@ h2 {
 .avatar {
   @apply w-48 my-6 drop-shadow-lg md:w-60;
 }
-.design img {
+.ui-design img {
   @apply mx-auto;
 }
 </style>

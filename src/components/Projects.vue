@@ -1,5 +1,5 @@
 <template lang="pug">
-section.projects-container
+section.projects-container(id="portfolio")
 	.projects
 		h2 Proyectos Recientes
 		ProjectItem(v-for="item in dataProjects", :description="item.description", :repo="item.repo", :site="item.site", :image="item.image")

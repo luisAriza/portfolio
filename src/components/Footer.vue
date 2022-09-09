@@ -2,7 +2,7 @@
 footer
 	.footer-container
 		figure.logo
-			img(src="/logo.png", alt="Logo", width="50", height="74")
+			img(src="/logo.png", alt="Logo", width="40", height="58")
 		h3 Abre tu mente, aprende, aplica y se mejor cada día.
 		.social-medias
 			a(href="https://github.com/luisAriza", target="_blank")
@@ -20,16 +20,16 @@ footer
 
 <style scoped lang="postcss">
 .footer-container {
-  @apply grid gap-10 place-items-center px-6 py-14 text-center bg-secondary border-t border-slate-800 sm:px-10 md:py-20 md:grid-cols-2 md:gap-5;
+  @apply grid gap-12 place-items-center px-6 pt-28 pb-14 text-center bg-secondary border-t border-slate-800;
 }
 .logo {
   @apply flex justify-center w-full;
 }
 h3 {
-  @apply w-64 text-xl font-body text-slate-600 md:row-start-2;
+  @apply w-80 text-2xl text-slate-600;
 }
 .social-medias {
-  @apply flex justify-center gap-6 w-full m-3 md:col-start-2;
+  @apply flex justify-center gap-6 m-3;
   -webkit-tap-highlight-color: transparent;
 }
 .social-medias a {

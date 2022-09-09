@@ -20,7 +20,7 @@ module.exports = {
         body: ["Nunito", "sans-serif"],
       },
       dropShadow: {
-        card: "0 0 8px rgba(0, 0, 0, .33)",
+        card: "0 0 4px rgba(0, 0, 0, .3)",
       },
     },
   },
