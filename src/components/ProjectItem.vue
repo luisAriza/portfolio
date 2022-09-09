@@ -7,7 +7,7 @@ div.project-item
 				CodeBracketSquareIcon.code.icon
 			a.site(:href="site", target="_blank") Ver website
 				ArrowRightCircleIcon.arrow.icon
-		img(:src="image", alt="Project image", width="320", height="160", loading="lazy")
+		img(:src="image", alt="Project image", width="320", height="320", loading="lazy")
 </template>
 
 <script lang="ts">
@@ -39,13 +39,16 @@ img {
   @apply w-full h-full;
 }
 .content {
-  @apply flex flex-wrap place-content-center gap-y-4 gap-x-2 w-full h-full text-center text-white absolute opacity-0 bg-gradient-to-tr from-slate-600 to-secondary dark:to-black duration-500;
+  @apply flex flex-wrap place-content-center gap-y-4 gap-x-2 w-full h-full text-center text-white absolute duration-500 opacity-0 bg-gradient-to-br from-secondary to-variant;
+}
+figure:hover .content {
+  @apply duration-200 opacity-100;
 }
 p {
-  @apply w-full opacity-0 px-8 text-sm font-body;
+  @apply w-72 text-sm font-body;
 }
 a {
-  @apply flex opacity-0 pt-1.5 pb-1 px-3 rounded-full border duration-200;
+  @apply flex pt-1.5 pb-1 px-3 rounded-full border duration-300;
   -webkit-tap-highlight-color: transparent;
 }
 .repo {
@@ -55,14 +58,9 @@ a {
   @apply border-primary bg-primary hover:border-orange-700 hover:bg-orange-700;
 }
 .icon {
-  @apply inline w-5 h-5 ml-2 text-white mt-[1px];
+  @apply inline w-5 h-5 ml-2 text-white mt-[1px] duration-300;
 }
 .repo:hover .code {
-  @apply text-secondary duration-200;
-}
-figure:hover .content,
-figure:hover p,
-figure:hover a {
-  @apply duration-200 opacity-100;
+  @apply text-secondary duration-300;
 }
 </style>

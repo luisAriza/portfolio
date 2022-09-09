@@ -6,21 +6,20 @@ module.exports = {
     extend: {
       colors: {
         primary: "#FF7847",
-        secondary: "#011628",
-        variant: "#F2F2E3",
+        secondary: "#021927",
+        variant: "#229FBF",
       },
       backgroundColor: (theme) => ({
         ...theme("colors"),
         primary: "#FF7847",
-        secondary: "#011628",
-        variant: "#F2F2E3",
+        secondary: "#021927",
+        variant: "#229FBF",
       }),
       fontFamily: {
         main: ["Josefin", "sans-serif"],
         body: ["Nunito", "sans-serif"],
       },
       dropShadow: {
-        img: "0 8px 4px rgba(0, 0, 0, .33)",
         card: "0 0 8px rgba(0, 0, 0, .33)",
       },
     },
