@@ -23,3 +23,8 @@ html {
 body {
   @apply font-main text-secondary bg-white dark:text-slate-200 dark:bg-secondary duration-200;
 }
+
+a,
+svg {
+  -webkit-tap-highlight-color: transparent;
+}

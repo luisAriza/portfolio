@@ -3,7 +3,7 @@ section.profile-container
 	article.profile
 		h2 Hola, soy Luis Ariza. Gusto en conocerte.
 		p Soy desarrollador web autodidacta, me apasiona darle vida a páginas y aplicaciones web con el objetivo de asegurar el funcionamiento con el navegador, la accesibilidad del usuario y un buen performance. En mis trabajos se destaca una interfaz de usuario intuitiva y agradable a la vista, además de buenas prácticas y documentación del código.
-		a(href="/logo.png" download="brand") Descargar Curriculum
+		a.btn(href="/logo.png" download="brand") Descargar Curriculum
 			DocumentArrowDownIcon.icon
 </template>
 
@@ -21,8 +21,8 @@ h2 {
 p {
   @apply max-w-2xl font-body text-xl;
 }
-a {
-  @apply mt-2 px-4 py-2 border border-white rounded-md;
+.btn {
+  @apply mt-2 px-4 py-2 border border-white rounded-full;
 }
 .icon {
   @apply inline w-5 h-5 ml-2 mb-1 text-white;

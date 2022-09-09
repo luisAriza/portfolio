@@ -1,13 +1,13 @@
 <template lang="pug">
 div.project-item
-	figure
-		div.content
+	article.content
+		div.description
 			p {{ description }}
-			a.repo(:href="repo", target="_blank") Ver código
-				CodeBracketSquareIcon.code.icon
-			a.site(:href="site", target="_blank") Ver website
-				ArrowRightCircleIcon.arrow.icon
-		img(:src="image", alt="Project image", width="320", height="320", loading="lazy")
+			a.btn-repo.btn(:href="repo", target="_blank") Ver código
+				CodeBracketSquareIcon.code-icon.icon
+			a.btn-site.btn(:href="site", target="_blank") Ver website
+				ArrowRightCircleIcon.arrow-icon.icon
+		img.bg-img(:src="image", alt="Project image", width="320", height="320", loading="lazy")
 </template>
 
 <script lang="ts">
@@ -32,35 +32,37 @@ export default {
 .project-item {
   @apply rounded-xl overflow-hidden drop-shadow-card relative sm:max-w-md;
 }
-figure {
-  @apply w-full bg-gray-100 hover:scale-110 duration-200;
-}
-img {
-  @apply w-full h-full;
-}
 .content {
-  @apply flex flex-wrap place-content-center gap-y-4 gap-x-2 w-full h-full text-center text-white absolute duration-500 opacity-0 bg-gradient-to-br from-secondary to-variant;
+  @apply text-center text-white bg-gradient-to-tl from-secondary to-variant;
 }
-figure:hover .content {
-  @apply duration-200 opacity-100;
+.description {
+  @apply flex flex-wrap place-content-center gap-4 w-full h-full opacity-0 duration-300 absolute;
+}
+.content:hover .description {
+  @apply opacity-100 duration-300;
 }
 p {
-  @apply w-72 text-sm font-body;
+  @apply max-w-md px-6 text-xl font-body;
 }
-a {
+.btn {
   @apply flex pt-1.5 pb-1 px-3 rounded-full border duration-300;
-  -webkit-tap-highlight-color: transparent;
 }
-.repo {
+.btn-repo {
   @apply border-white hover:bg-white hover:text-secondary;
 }
-.site {
-  @apply border-primary bg-primary hover:border-orange-700 hover:bg-orange-700;
+.btn-site {
+  @apply border-primary bg-primary hover:border-orange-600 hover:bg-orange-600;
 }
 .icon {
   @apply inline w-5 h-5 ml-2 text-white mt-[1px] duration-300;
 }
-.repo:hover .code {
+.btn-repo:hover .code-icon {
   @apply text-secondary duration-300;
+}
+.bg-img {
+  @apply w-full h-full duration-500 hover:opacity-0;
+}
+.content:hover .bg-img {
+  @apply scale-125 opacity-0 duration-500;
 }
 </style>

@@ -8,19 +8,14 @@
 		DarkMode
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
 import { HomeIcon, BriefcaseIcon } from "@heroicons/vue/24/solid";
 import DarkMode from "./DarkMode.vue";
-
-export default {
-  components: { HomeIcon, BriefcaseIcon, DarkMode },
-};
 </script>
 
 <style scoped lang="postcss">
 .tab-bar {
-  @apply p-3 sticky bottom-0 sm:hidden bg-white border-t border-gray-200 dark:bg-inherit dark:border-slate-800;
-  -webkit-tap-highlight-color: transparent;
+  @apply p-3 sticky bottom-0 bg-white border-t border-gray-200 sm:hidden dark:bg-inherit dark:border-slate-800;
 }
 figure {
   @apply flex justify-around;
