@@ -30,19 +30,19 @@ export default {
 
 <style scoped lang="postcss">
 .project-item {
-  @apply rounded-xl overflow-hidden drop-shadow-card relative sm:max-w-md;
+  @apply w-full max-w-[500px] rounded-xl overflow-hidden drop-shadow-card relative;
 }
 .content {
-  @apply text-center text-white bg-gradient-to-tl from-secondary to-variant;
+  @apply text-center text-white bg-secondary dark:bg-slate-800;
 }
 .description {
-  @apply flex flex-wrap place-content-center gap-4 w-full h-full opacity-0 duration-300 absolute;
+  @apply flex flex-wrap place-content-center gap-4 w-full h-full p-4 opacity-0 duration-300 absolute;
 }
 .content:hover .description {
   @apply opacity-100 duration-300 z-10;
 }
 p {
-  @apply max-w-md px-6 text-xl font-body;
+  @apply max-w-md mb-4 text-xl font-body;
 }
 .btn {
   @apply flex pt-1.5 pb-1 px-3 rounded-full border duration-300;
