@@ -3,29 +3,29 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Josefin";
-  font-display: swap;
-  src: url("./assets/fonts/JosefinSans-VariableFont.ttf") format("truetype");
+	font-family: "Josefin";
+	font-display: swap;
+	src: url("@fonts/JosefinSans-VariableFont.ttf") format("truetype");
 }
 @font-face {
-  font-family: "Nunito";
-  font-display: swap;
-  src: url("./assets/fonts/Nunito-VariableFont.ttf") format("truetype");
+	font-family: "Nunito";
+	font-display: swap;
+	src: url("@fonts/Nunito-VariableFont.ttf") format("truetype");
 }
 
 html {
-  @apply scroll-smooth;
+	@apply scroll-smooth;
 }
 * {
-  @apply m-0 p-0 box-border;
+	@apply m-0 p-0 box-border;
 }
 
 body {
-  @apply font-main text-secondary bg-white dark:text-slate-200 dark:bg-secondary duration-200;
+	@apply font-main text-secondary bg-white dark:text-slate-200 dark:bg-secondary duration-200;
 }
 
 a,
 svg,
 button {
-  -webkit-tap-highlight-color: transparent;
+	-webkit-tap-highlight-color: transparent;
 }

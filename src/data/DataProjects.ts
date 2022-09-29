@@ -1,24 +1,24 @@
-import google from "../assets/images/google_clone.png"
-import batatabit from "../assets/images/batatabit.png"
-import conf from "../assets/images/conf_hawaii.png"
-import lego from "../assets/images/lego_superhero.png"
-import travel from "../assets/images/travel_page.png"
-import products from "../assets/images/products_app.png"
-import quiz from "../assets/images/quiz.png"
-import weather from "../assets/images/weather.png"
-import math from "../assets/images/math.png"
-import rick from "../assets/images/rick_morty.png"
-import yard from "../assets/images/yard_sale.png"
-import todo from "../assets/images/todo.png"
+import google from "@images/google_clone.png"
+import batatabit from "@images/batatabit.png"
+import conf from "@images/conf_hawaii.png"
+import lego from "@images/lego_superhero.png"
+import travel from "@images/travel_page.png"
+import products from "@images/products_app.png"
+import quiz from "@images/quiz.png"
+import weather from "@images/weather.png"
+import math from "@images/math.png"
+import rick from "@images/rick_morty.png"
+import yard from "@images/yard_sale.png"
+import todo from "@images/todo.png"
 
 interface Projects {
 	description: string;
-	repo: String;
+	repo: string;
 	site: string;
 	image: string;
 }
 
-export const dataProjects: Projects[] = [
+export const DataProjects: Projects[] = [
 	{
 		description: "Aplicación to-do desarrollada con VueJs y Tailwindcss.",
 		repo: "https://github.com/luisAriza/todo-vue/",
@@ -33,14 +33,14 @@ export const dataProjects: Projects[] = [
 	},
 	{
 		description: "SPA de personajes de Rick and Morty desarrollada con JavaScript.",
-		repo: "https://github.com/luisAriza/rick_and_morty/",
+		repo: "https://github.com/luisAriza/rick-and-morty/",
 		site: "https://luisariza-rick-and-morty.netlify.app/",
 		image: rick
 	},
 	{
 		description: "Calculadora de perímetros, áreas, descuentos, media, promedio y la moda.",
-		repo: "https://github.com/luisAriza/math_webSite/",
-		site: "https://luisariza.github.io/math_webSite/",
+		repo: "https://github.com/luisAriza/math-webSite/",
+		site: "https://luisariza.github.io/math-webSite/",
 		image: math
 	},
 	{
@@ -63,20 +63,20 @@ export const dataProjects: Projects[] = [
 	},
 	{
 		description: "Landing Page de viajes desarrollada con JavaScript y Tailwindcss.",
-		repo: "https://github.com/luisAriza/travel_page/",
-		site: "https://luisariza.github.io/travel_page/",
+		repo: "https://github.com/luisAriza/travel-page/",
+		site: "https://luisariza.github.io/travel-page/",
 		image: travel
 	},
 	{
 		description: "Mockup de Lego desarrollada con HTML, CSS y JavaScript puro.",
-		repo: "https://github.com/luisAriza/lego_superhero/",
-		site: "https://luisariza.github.io/lego_superhero/",
+		repo: "https://github.com/luisAriza/lego-superhero/",
+		site: "https://luisariza.github.io/lego-superhero/",
 		image: lego
 	},
 	{
 		description: "Página promocional de conf hawaii desarrollada con Bootstrap.",
-		repo: "https://github.com/luisAriza/conf_hawaii/",
-		site: "https://luisariza.github.io/conf_hawaii/",
+		repo: "https://github.com/luisAriza/conf-hawaii/",
+		site: "https://luisariza.github.io/conf-hawaii/",
 		image: conf
 	},
 	{
@@ -87,8 +87,8 @@ export const dataProjects: Projects[] = [
 	},
 	{
 		description: "Clon del buscador de Google desarrollado con HTML and CSS puro.",
-		repo: "https://github.com/luisAriza/google_clone/",
-		site: "https://luisariza.github.io/google_clone/",
+		repo: "https://github.com/luisAriza/google-clone/",
+		site: "https://luisariza.github.io/google-clone/",
 		image: google
 	},
 ];

@@ -9,23 +9,23 @@ section.profile-container
 </template>
 
 <script setup lang="ts">
-import { DocumentArrowDownIcon } from "@heroicons/vue/24/solid";
+	import { DocumentArrowDownIcon } from "@heroicons/vue/24/solid";
 </script>
 
 <style lang="postcss" scoped>
-.profile {
-  @apply flex flex-col items-center justify-center gap-6 w-full m-0 px-6 pt-20 pb-40 lg:pt-36 text-center text-white bg-variant;
-}
-h2 {
-  @apply text-3xl font-bold;
-}
-p {
-  @apply max-w-2xl font-body text-xl;
-}
-.btn {
-  @apply mt-2 px-4 py-2 border border-white rounded-full;
-}
-.icon {
-  @apply inline w-5 h-5 ml-2 mb-1 text-white;
-}
+	.profile {
+		@apply flex flex-col items-center justify-center gap-6 w-full m-0 px-6 pt-20 pb-40 lg:pt-36 text-center text-white bg-variant;
+	}
+	h2 {
+		@apply text-3xl font-bold;
+	}
+	p {
+		@apply max-w-2xl font-body text-xl;
+	}
+	.btn {
+		@apply mt-2 px-4 py-2 border border-white rounded-full;
+	}
+	.icon {
+		@apply inline w-5 h-5 ml-2 mb-1 text-white;
+	}
 </style>
