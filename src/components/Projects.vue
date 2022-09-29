@@ -8,7 +8,7 @@ section.projects-container(id="portfolio")
 
 <script setup lang="ts">
 	import ProjectItem from "./ProjectItem.vue";
-	import { DataProjects } from "@data/DataProjects";
+	import { DataProjects } from "../data/DataProjects";
 </script>
 
 <style scoped lang="postcss">
