@@ -54,7 +54,7 @@ div.project-item
 		@apply opacity-100 duration-300 z-10;
 	}
 	p {
-		@apply max-w-md mb-4 text-xl font-body;
+		@apply max-w-md mb-4 text-xl font-body font-light;
 	}
 	.btn {
 		@apply flex pt-1.5 pb-1 px-3 rounded-full border duration-300;

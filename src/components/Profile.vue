@@ -20,7 +20,7 @@ section.profile-container
 		@apply text-3xl font-bold;
 	}
 	p {
-		@apply max-w-2xl font-body text-xl;
+		@apply max-w-2xl font-body text-xl font-light leading-[1.9rem];
 	}
 	.btn {
 		@apply mt-2 px-4 py-2 border border-white rounded-full;

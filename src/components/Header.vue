@@ -4,7 +4,7 @@ header(id="home")
 	section
 		article.presentation
 			h1 Frontend Developer
-			h2 Diseño y desarrollo interfaces web gráficas, y me encanta lo que hago.
+			h2 Diseño y desarrollo aplicaciones e interfaces web, y me encanta lo que hago.
 			img.avatar(src="../assets/images/avatar.svg", alt="Avatar", width="240" height="254")
 		figure.mx-auto
 			img(src="../assets/images/ui-design.svg", alt="background", width="768", height="248")

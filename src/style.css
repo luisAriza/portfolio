@@ -4,13 +4,21 @@
 
 @font-face {
 	font-family: "Josefin";
+	src: url("@fonts/josefin-sans-vf.woff2") format("woff2 supports variations"),
+		url("@fonts/josefin-sans-vf.woff") format("woff"),
+		url("@fonts/josefin-sans-vf.ttf") format("truetype");
 	font-display: swap;
-	src: url("@fonts/JosefinSans-VariableFont.ttf") format("truetype");
+	font-weight: 100 900;
+	font-style: normal;
 }
 @font-face {
 	font-family: "Nunito";
+	src: url("@fonts/nunito-vf.woff2") format("woff2 supports variations"),
+		url("@fonts/nunito-vf.woff") format("woff"),
+		url("@fonts/nunito-vf.ttf") format("truetype");
 	font-display: swap;
-	src: url("@fonts/Nunito-VariableFont.ttf") format("truetype");
+	font-weight: 100 900;
+	font-style: normal;
 }
 
 html {
@@ -20,7 +28,7 @@ html {
 	@apply m-0 p-0 box-border;
 }
 body {
-	@apply font-main text-secondary bg-white dark:text-slate-200 dark:bg-secondary duration-200;
+	@apply font-main font-normal text-secondary bg-white dark:text-slate-200 dark:bg-secondary duration-200;
 }
 a,
 svg,
