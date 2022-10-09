@@ -20,12 +20,15 @@ section.profile-container
 		@apply text-3xl font-bold;
 	}
 	p {
-		@apply max-w-2xl font-body text-xl font-light leading-[1.9rem];
+		@apply max-w-2xl font-body text-xl leading-[1.9rem];
 	}
 	.btn {
-		@apply mt-2 px-4 py-2 border border-white rounded-full;
+		@apply mt-2 px-4 py-2 rounded-full duration-300 border border-white hover:text-variant hover:bg-white;
 	}
 	.icon {
-		@apply inline w-5 h-5 ml-2 mb-1 text-white;
+		@apply inline w-5 h-5 ml-2 mb-1 hover:text-variant;
+	}
+	.btn:hover .icon {
+		@apply animate-bounce;
 	}
 </style>
