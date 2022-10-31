@@ -6,9 +6,11 @@ import travel from "@images/travel_page.png"
 import products from "@images/products_app.png"
 import quiz from "@images/quiz.png"
 import weather from "@images/weather.png"
+import crypto from "@images/crypto_viewer.png"
 import math from "@images/math.png"
 import rick from "@images/rick_morty.png"
 import yard from "@images/yard_sale.png"
+import cashflow from "@images/cashflow.png"
 import todo from "@images/todo.png"
 
 interface Projects {
@@ -22,19 +24,25 @@ export const DataProjects: Projects[] = [
 	{
 		description: "Aplicación to-do desarrollada con VueJs y Tailwindcss.",
 		repo: "https://github.com/luisAriza/todo-vue/",
-		site: "https://luis-ariza-todo.netlify.app/",
+		site: "https://lmap-todo.netlify.app/",
 		image: todo
+	},
+	{
+		description: "Aplicación de registros de ingresos y gastos desarrollada con VueJs (<em>composition API</em>).",
+		repo: "https://github.com/luisAriza/cashflow/",
+		site: "https://lmap-cashflow.netlify.app/",
+		image: cashflow
 	},
 	{
 		description: "E-Commerce de productos desarrollada con ReactJs.",
 		repo: "https://github.com/luisAriza/yard_sale-react/",
-		site: "https://luisariza-yardsale.netlify.app/",
+		site: "https://lmap-yardsale.netlify.app/",
 		image: yard
 	},
 	{
 		description: "SPA de personajes de Rick and Morty desarrollada con JavaScript.",
 		repo: "https://github.com/luisAriza/rick-and-morty/",
-		site: "https://luisariza-rick-and-morty.netlify.app/",
+		site: "https://lmap-rick-and-morty.netlify.app/",
 		image: rick
 	},
 	{
@@ -42,6 +50,12 @@ export const DataProjects: Projects[] = [
 		repo: "https://github.com/luisAriza/math-webSite/",
 		site: "https://luisariza.github.io/math-webSite/",
 		image: math
+	},
+	{
+		description: "Sitio web con seguimiento al estado de 100 crypto monedas diferentes.",
+		repo: "https://github.com/luisAriza/crypto-viewer/",
+		site: "https://luisariza.github.io/crypto-viewer/",
+		image: crypto
 	},
 	{
 		description: "App del clima de diferentes lugares, desarrollada con la API Open Weather.",

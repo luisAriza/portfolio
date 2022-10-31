@@ -2,7 +2,7 @@
 div.project-item
 	article.content
 		div.description
-			p {{ description }}
+			p(v-html="description")
 			a.btn-repo.btn(:href="repo", target="_blank") Ver código
 				CodeBracketSquareIcon.code-icon.icon
 			a.btn-site.btn(:href="site", target="_blank") Ver website
