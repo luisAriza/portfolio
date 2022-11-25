@@ -13,8 +13,8 @@ footer
 			span Made with
 			a(href="https://tailwindcss.com/", target="_blank")
 				img(src="/icons/tailwind.svg" alt="Tailwindcss icon", width="140", height="20")
-			span Strong inspiration from
-				a(href="https://mattfarley.ca/", target="_blank")  - Mattfarley.ca -
+			//- span Strong inspiration from
+			//- 	a(href="https://mattfarley.ca/", target="_blank")  - Mattfarley.ca -
 </template>
 
 <script setup lang="ts"></script>
