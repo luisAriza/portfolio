@@ -4,18 +4,18 @@
 
 @font-face {
 	font-family: "Josefin";
-	src: url("@fonts/josefin-sans-vf.woff2") format("woff2 supports variations"),
-		url("@fonts/josefin-sans-vf.woff") format("woff"),
-		url("@fonts/josefin-sans-vf.ttf") format("truetype");
+	src: url("/fonts/josefin-sans-vf.woff2") format("woff2 supports variations"),
+		url("/fonts/josefin-sans-vf.woff") format("woff"),
+		url("/fonts/josefin-sans-vf.ttf") format("truetype");
 	font-display: swap;
 	font-weight: 100 900;
 	font-style: normal;
 }
 @font-face {
 	font-family: "Nunito";
-	src: url("@fonts/nunito-vf.woff2") format("woff2 supports variations"),
-		url("@fonts/nunito-vf.woff") format("woff"),
-		url("@fonts/nunito-vf.ttf") format("truetype");
+	src: url("/fonts/nunito-vf.woff2") format("woff2 supports variations"),
+		url("/fonts/nunito-vf.woff") format("woff"),
+		url("/fonts/nunito-vf.ttf") format("truetype");
 	font-display: swap;
 	font-weight: 100 900;
 	font-style: normal;

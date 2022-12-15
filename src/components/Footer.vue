@@ -1,20 +1,39 @@
-<template lang="pug">
-footer
-	.footer-container
-		figure.logo
-			img(src="/logo.png", alt="Logo", width="56", height="56")
-		h3.phrase Abre tu mente, aprende, aplica y se mejor cada día.
-		.contact
-			a(href="https://github.com/luisAriza", target="_blank")
-				img(src="/icons/github.svg", alt="GitHub icon", width="20", height="20")
-			a(href="https://linkedin.com/in/luisariza-dev/", target="_blank")
-				img(src="/icons/linkedin.svg", alt="LinkedIn icon", width="20", height="20")
-		div.made
-			span Made with
-			a(href="https://tailwindcss.com/", target="_blank")
-				img(src="/icons/tailwind.svg" alt="Tailwindcss icon", width="140", height="20")
-			//- span Strong inspiration from
-			//- 	a(href="https://mattfarley.ca/", target="_blank")  - Mattfarley.ca -
+<template>
+	<footer>
+		<div class="footer-container">
+			<figure class="logo">
+				<img src="/logo.png" alt="Logo" width="56" height="56" />
+			</figure>
+			<h3 class="phrase">
+				Abre tu mente, aprende, aplica y se mejor cada día.
+			</h3>
+			<div class="contact">
+				<a href="https://github.com/luisAriza" target="_blank"
+					><img
+						src="/icons/github.svg"
+						alt="GitHub icon"
+						width="20"
+						height="20" /></a
+				><a href="https://linkedin.com/in/luisariza-dev/" target="_blank"
+					><img
+						src="/icons/linkedin.svg"
+						alt="LinkedIn icon"
+						width="20"
+						height="20"
+				/></a>
+			</div>
+			<div class="made">
+				<span>Made with</span
+				><a href="https://tailwindcss.com/" target="_blank"
+					><img
+						src="/icons/tailwind.svg"
+						alt="Tailwindcss icon"
+						width="140"
+						height="20"
+				/></a>
+			</div>
+		</div>
+	</footer>
 </template>
 
 <script setup lang="ts"></script>

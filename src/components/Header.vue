@@ -1,16 +1,34 @@
-<template lang="pug">
-header(id="home")
-	Navbar
-	section
-		article.presentation
-			h1 Frontend Developer
-			h2 Diseño y desarrollo aplicaciones e interfaces web, y me encanta lo que hago.
-			img.avatar(src="../assets/images/avatar.svg", alt="Avatar", width="240" height="254")
-		figure.mx-auto
-			img(src="../assets/images/ui-design.svg", alt="background", width="768", height="248")
+<template>
+	<header id="home">
+		<Navbar></Navbar>
+		<section>
+			<article class="presentation">
+				<h1>Frontend Developer</h1>
+				<h2>
+					Diseño y desarrollo aplicaciones e interfaces web, y me encanta lo que
+					hago.
+				</h2>
+				<img
+					class="avatar"
+					src="/images/avatar.svg"
+					alt="Avatar"
+					width="240"
+					height="254"
+				/>
+			</article>
+			<figure class="mx-auto">
+				<img
+					src="/images/ui-design.svg"
+					alt="background"
+					width="768"
+					height="248"
+				/>
+			</figure>
+		</section>
+	</header>
 </template>
 
-<script setup lang="ts">
+<script lang="ts" setup>
 	import Navbar from "./Navbar.vue";
 </script>
 
