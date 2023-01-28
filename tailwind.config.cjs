@@ -5,15 +5,17 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				primary: "#FF7847",
+				primary: "hsl(10deg, 100%, 60%)",
+				primaryHover: "hsl(10deg, 100%, 50%)",
 				secondary: "#021D27",
-				variant: "#4ED0C1",
+				variant: "hsl(190deg, 50%, 50%)",
 			},
-			backgroundColor: (theme) => ({
+			backgroundColor: (theme) => ({WD
 				...theme("colors"),
-				primary: "#FF7847",
+				primary: "hsl(10deg, 100%, 60%)",
+				primaryHover: "hsl(10deg, 100%, 50%)",
 				secondary: "#021D27",
-				variant: "#4ED0C1",
+				variant: "hsl(190deg, 50%, 50%)",
 			}),
 			fontFamily: {
 				main: ["Josefin", "sans-serif"],

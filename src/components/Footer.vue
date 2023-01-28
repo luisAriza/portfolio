@@ -40,22 +40,22 @@
 
 <style scoped lang="postcss">
 	.footer-container {
-		@apply grid gap-12 place-items-center px-6 pt-28 pb-14 text-center bg-secondary border-t border-slate-800;
+		@apply grid gap-12 place-items-center px-6 pt-28 pb-14 text-center bg-stone-800 border-t border-stone-700;
 	}
 	.logo {
 		@apply w-14;
 	}
 	.phrase {
-		@apply w-80 text-2xl text-slate-600;
+		@apply w-80 text-2xl text-stone-600;
 	}
 	.contact {
 		@apply flex gap-6 m-3;
 	}
 	.contact a {
-		@apply p-3 border-2 border-slate-600 hover:border-white rounded-full duration-300;
+		@apply p-3 border-2 border-stone-600 hover:border-white rounded-full duration-300;
 	}
 	.made span {
-		@apply text-xs text-slate-600;
+		@apply text-xs text-stone-600;
 	}
 	.made img {
 		@apply mb-4 mx-auto;

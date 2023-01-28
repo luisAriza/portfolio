@@ -1,9 +1,10 @@
-<template lang="pug">
-nav.navbar
-	.logo
-		img(src="/logo.png ", alt="Logo", width="48", height="48")
-	.dark-mode
-		DarkMode
+<template>
+	<nav class="navbar">
+		<div class="logo">
+			<img src="/logo.png " alt="Logo" width="48" height="48" />
+		</div>
+		<div class="dark-mode"><DarkMode></DarkMode></div>
+	</nav>
 </template>
 
 <script setup lang="ts">

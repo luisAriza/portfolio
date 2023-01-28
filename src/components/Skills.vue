@@ -35,7 +35,7 @@ section.skills-container
 		@apply flex justify-center w-full -mt-24 px-6 drop-shadow-md;
 	}
 	.skills {
-		@apply w-full max-w-2xl px-8 py-16 text-center rounded-xl duration-200 bg-white dark:bg-secondary dark:border dark:border-slate-800;
+		@apply w-full max-w-2xl px-8 py-16 text-center rounded-xl duration-200 bg-white dark:bg-stone-800 dark:border dark:border-stone-700;
 	}
 	.icon {
 		@apply w-20 h-20 mx-auto mb-8 p-4 rounded-full bg-primary text-white;

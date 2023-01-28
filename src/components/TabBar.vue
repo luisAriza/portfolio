@@ -15,12 +15,12 @@
 
 <style scoped lang="postcss">
 	.tab-bar {
-		@apply p-3 sticky bottom-0 bg-white border-t border-gray-200 sm:hidden dark:bg-secondary dark:border-slate-800 duration-200;
+		@apply p-3 sticky bottom-0 bg-white border-t border-gray-200 sm:hidden dark:bg-stone-800 dark:border-stone-700 duration-200;
 	}
 	figure {
 		@apply flex justify-around;
 	}
 	.icon {
-		@apply h-6 w-6 text-secondary dark:text-white duration-200;
+		@apply h-6 w-6 text-slate-800 dark:text-white duration-200;
 	}
 </style>

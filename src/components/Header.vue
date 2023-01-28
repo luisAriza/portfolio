@@ -3,11 +3,8 @@
 		<Navbar></Navbar>
 		<section>
 			<article class="presentation">
-				<h1>Frontend Developer</h1>
-				<h2>
-					Diseño y desarrollo aplicaciones e interfaces web, y me encanta lo que
-					hago.
-				</h2>
+				<h1>Luis Ariza</h1>
+				<h2>desarrollador frontend / diseñador web</h2>
 				<img
 					class="avatar"
 					src="/images/avatar.svg"
@@ -36,14 +33,17 @@
 	header {
 		@apply flex flex-col items-center w-full px-6;
 	}
+	.navbar {
+		@apply hidden md:flex;
+	}
 	.presentation {
 		@apply flex flex-col items-center pt-6 pb-20 text-center;
 	}
 	h1 {
-		@apply mb-6 font-bold text-[2rem] md:text-[2.5rem];
+		@apply mb-6 font-bold text-6xl md:text-7xl;
 	}
 	h2 {
-		@apply mb-6 font-body text-xl dark:text-slate-400;
+		@apply mb-6 font-body text-xl dark:text-white;
 	}
 	.avatar {
 		@apply w-48 my-6 drop-shadow-lg md:w-60;
