@@ -14,7 +14,7 @@ section.profile-container
 
 <style lang="postcss" scoped>
 	.profile {
-		@apply flex flex-col items-center justify-center gap-6 w-full m-0 px-6 pt-20 pb-40 lg:pt-36 text-center text-white bg-variant;
+		@apply flex flex-col items-center justify-center gap-6 w-full m-0 px-6 pt-20 pb-40 lg:pt-36 text-center text-white bg-secondary;
 	}
 	h2 {
 		@apply text-3xl font-bold;
@@ -23,10 +23,10 @@ section.profile-container
 		@apply max-w-2xl font-body text-xl leading-[1.9rem];
 	}
 	.btn {
-		@apply mt-2 px-4 py-2 rounded-full duration-300 border border-white hover:text-variant hover:bg-white;
+		@apply mt-2 px-4 py-2 rounded-full duration-300 border border-white hover:text-secondary hover:bg-white;
 	}
 	.icon {
-		@apply inline w-5 h-5 ml-2 mb-1 hover:text-variant;
+		@apply inline w-5 h-5 ml-2 mb-1 hover:text-secondary;
 	}
 	.btn:hover .icon {
 		@apply animate-bounce;

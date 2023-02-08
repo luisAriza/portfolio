@@ -1,26 +1,33 @@
-<template lang="pug">
-.tab-bar
-	figure
-		a(href="#home")
-			HomeIcon.home.icon
-		a(href="#portfolio")
-			BriefcaseIcon.star.icon
-		DarkMode
+<template>
+	<div class="tab-bar">
+		<figure>
+			<a href="#home">
+				<HomeIcon class="home icon" />
+			</a>
+			<a href="#portfolio">
+				<BriefcaseIcon class="brief icon" />
+			</a>
+			<a href="#aboutMe">
+				<UserIcon class="user icon" />
+			</a>
+			<DarkMode />
+		</figure>
+	</div>
 </template>
 
 <script setup lang="ts">
-	import { HomeIcon, BriefcaseIcon } from "@heroicons/vue/24/solid";
+	import { HomeIcon, BriefcaseIcon, UserIcon } from "@heroicons/vue/24/solid";
 	import DarkMode from "./DarkMode.vue";
 </script>
 
 <style scoped lang="postcss">
 	.tab-bar {
-		@apply p-3 sticky bottom-0 bg-white border-t border-gray-200 sm:hidden dark:bg-stone-800 dark:border-stone-700 duration-200;
+		@apply mx-4 p-3 rounded-full shadow-t-light sticky bottom-5 bg-zinc-900 sm:hidden dark:bg-white dark:shadow-t-night duration-300;
 	}
 	figure {
 		@apply flex justify-around;
 	}
 	.icon {
-		@apply h-6 w-6 text-slate-800 dark:text-white duration-200;
+		@apply h-7 w-7 text-white dark:text-secondary-800 duration-100;
 	}
 </style>

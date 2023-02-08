@@ -1,7 +1,8 @@
-<template lang="pug">
-button(@click="toggleDark()")
-	SunIcon.sun.icon(v-if="isDark")
-	MoonIcon.moon.icon(v-else)
+<template>
+	<button @click="toggleDark()">
+		<SunIcon class="sun icon" v-if="isDark" />
+		<MoonIcon class="moon icon" v-else />
+	</button>
 </template>
 
 <script setup lang="ts">
@@ -14,12 +15,12 @@ button(@click="toggleDark()")
 
 <style scoped lang="postcss">
 	.icon {
-		@apply w-6 h-6 active:-translate-x-2 duration-200 active:opacity-0;
+		@apply w-7 h-7 duration-100 active:opacity-0;
 	}
 	.sun {
-		@apply text-white;
+		@apply text-secondary-800 active:translate-y-8;
 	}
 	.moon {
-		@apply text-secondary;
+		@apply text-white active:-translate-y-8;
 	}
 </style>

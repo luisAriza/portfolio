@@ -57,7 +57,7 @@
 
 <style scoped lang="postcss">
 	.project-item {
-		@apply w-full max-w-[500px] rounded-xl overflow-hidden drop-shadow-card relative;
+		@apply w-full max-w-[500px] rounded-xl overflow-hidden drop-shadow-text relative;
 	}
 	.content {
 		@apply text-center text-white bg-stone-800 dark:bg-stone-700;
@@ -78,7 +78,7 @@
 		@apply border-white hover:bg-white hover:text-stone-800;
 	}
 	.btn-site {
-		@apply border-primary bg-primary hover:border-primaryHover hover:bg-primaryHover;
+		@apply border-primary bg-primary hover:border-primary-500 hover:bg-primary-500;
 	}
 	.icon {
 		@apply inline w-5 h-5 ml-2 text-white mt-[1px] duration-300;

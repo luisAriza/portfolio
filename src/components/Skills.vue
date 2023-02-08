@@ -44,7 +44,7 @@ section.skills-container
 		@apply mb-6 text-2xl font-bold;
 	}
 	.subtitle {
-		@apply mb-2 text-xl text-variant;
+		@apply mb-2 text-xl text-secondary;
 	}
 	p {
 		@apply max-w-sm mx-auto mb-10 font-body text-lg;
