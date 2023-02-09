@@ -1,6 +1,6 @@
 <template>
 	<div class="tab-bar">
-		<figure>
+		<figure class="sections">
 			<a href="#home">
 				<HomeIcon class="home icon" />
 			</a>
@@ -22,12 +22,12 @@
 
 <style scoped lang="postcss">
 	.tab-bar {
-		@apply mx-4 p-3 rounded-full shadow-t-light sticky bottom-5 bg-zinc-900 sm:hidden dark:bg-white dark:shadow-t-night duration-300;
-	}
-	figure {
-		@apply flex justify-around;
-	}
-	.icon {
-		@apply h-7 w-7 text-white dark:text-secondary-800 duration-100;
+		@apply mx-4 p-4 rounded-full shadow-t-light sticky bottom-5 bg-zinc-900 sm:hidden dark:bg-white dark:shadow-t-night duration-300;
+		& .sections {
+			@apply flex justify-around;
+		}
+		& .icon {
+			@apply h-7 w-7 text-white dark:text-secondary-800 duration-100;
+		}
 	}
 </style>

@@ -1,17 +1,9 @@
 <template>
 	<header id="home">
-		<Navbar></Navbar>
 		<section>
 			<article class="presentation">
 				<h1>Luis Ariza</h1>
 				<h2>desarrollador frontend / diseñador web</h2>
-				<img
-					class="avatar"
-					src="/images/avatar.svg"
-					alt="Avatar"
-					width="240"
-					height="254"
-				/>
 			</article>
 			<figure class="mx-auto">
 				<img
@@ -26,7 +18,8 @@
 </template>
 
 <script lang="ts" setup>
-	import Navbar from "./Navbar.vue";
+	import { UserIcon } from "@heroicons/vue/24/solid";
+	import ButtonOutline from "./Buttons/ButtonOutline.vue";
 </script>
 
 <style scoped lang="postcss">

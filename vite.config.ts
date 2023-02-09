@@ -5,10 +5,10 @@ import path from "path"
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  base: "./",
   resolve: {
     alias: {
       "@components": path.resolve(__dirname, "./src/components"),
     }
-  }
+  },
+  base: "./",
 })

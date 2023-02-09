@@ -28,7 +28,7 @@ html {
 	@apply m-0 p-0 box-border;
 }
 body {
-	@apply font-main font-normal text-stone-800 bg-white dark:text-slate-200 dark:bg-stone-800 duration-200;
+	@apply font-main font-normal text-zinc-900 bg-white dark:text-white dark:bg-secondary-900 duration-300;
 }
 a,
 svg,

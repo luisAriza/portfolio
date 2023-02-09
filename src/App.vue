@@ -4,7 +4,6 @@ main
 	Profile
 	Skills
 	Projects
-Footer
 TabBar
 </template>
 
@@ -13,7 +12,6 @@ TabBar
 	import Profile from "@components/Profile.vue";
 	import Skills from "@components/Skills.vue";
 	import Projects from "@components/Projects.vue";
-	import Footer from "@components/Footer.vue";
 	import TabBar from "@components/TabBar.vue";
 </script>
 
