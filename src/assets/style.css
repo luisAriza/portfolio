@@ -2,25 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @font-face {
-	font-family: "Josefin";
-	src: url("/fonts/josefin-sans-vf.woff2") format("woff2 supports variations"),
-		url("/fonts/josefin-sans-vf.woff") format("woff"),
-		url("/fonts/josefin-sans-vf.ttf") format("truetype");
-	font-display: swap;
-	font-weight: 100 900;
-	font-style: normal;
-}
-@font-face {
-	font-family: "Nunito";
-	src: url("/fonts/nunito-vf.woff2") format("woff2 supports variations"),
-		url("/fonts/nunito-vf.woff") format("woff"),
-		url("/fonts/nunito-vf.ttf") format("truetype");
-	font-display: swap;
-	font-weight: 100 900;
-	font-style: normal;
-} */
-
 html {
 	@apply scroll-smooth;
 }
@@ -28,9 +9,7 @@ html {
 	@apply m-0 p-0 box-border;
 }
 body {
-	font-family: "Maven Pro", sans-serif;
-	font-family: "Josefin Slab", serif;
-	@apply font-main font-normal text-zinc-900 bg-white dark:text-white dark:bg-secondary-900 duration-300;
+	@apply font-main font-normal tracking-wide text-zinc-900 bg-white dark:text-white dark:bg-secondary-900 duration-300;
 }
 a,
 svg,

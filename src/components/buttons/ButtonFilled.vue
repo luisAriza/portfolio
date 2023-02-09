@@ -4,8 +4,6 @@
 	</a>
 </template>
 
-<script setup></script>
-
 <style lang="postcss" scoped>
 	.btn-filled {
 		@apply flex justify-center items-center py-3 px-4 gap-2 rounded-full duration-200 font-main font-bold text-base

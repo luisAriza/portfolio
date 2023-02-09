@@ -1,6 +1,6 @@
 <template>
-	<Header />
 	<main>
+		<Home />
 		<Profile />
 		<Skills />
 		<Projects />
@@ -9,7 +9,7 @@
 </template>
 
 <script lang="ts" setup>
-	import Header from "@components/Header.vue";
+	import Home from "@components/Home.vue";
 	import Profile from "@components/Profile.vue";
 	import Skills from "@components/Skills.vue";
 	import Projects from "@components/Projects.vue";

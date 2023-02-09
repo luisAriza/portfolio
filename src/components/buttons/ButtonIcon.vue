@@ -4,8 +4,6 @@
 	</a>
 </template>
 
-<script setup></script>
-
 <style lang="postcss" scoped>
 	.btn-icon {
 		@apply py-3 px-3 rounded-full border duration-200 text-base

@@ -8,7 +8,7 @@
 </template>
 
 <script setup lang="ts">
-	import DarkMode from "./DarkMode.vue";
+	import DarkMode from "./buttons/ButtonDarkMode.vue";
 </script>
 
 <style scoped lang="postcss">

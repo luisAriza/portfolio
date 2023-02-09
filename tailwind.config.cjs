@@ -63,6 +63,7 @@ module.exports = {
 			},
 			dropShadow: {
 				text: "0 0 8px rgba(38, 38, 38, 1)",
+				textDark: "0 0 8px rgba(115, 115, 115, .75)",
 			},
 		},
 	},

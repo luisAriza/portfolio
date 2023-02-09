@@ -10,14 +10,14 @@
 			<a href="#aboutMe">
 				<UserIcon class="user icon" />
 			</a>
-			<DarkMode />
+			<ButtonDarkMode />
 		</figure>
 	</div>
 </template>
 
 <script setup lang="ts">
 	import { HomeIcon, BriefcaseIcon, UserIcon } from "@heroicons/vue/24/solid";
-	import DarkMode from "./DarkMode.vue";
+	import ButtonDarkMode from "@buttons/ButtonDarkMode.vue";
 </script>
 
 <style scoped lang="postcss">
