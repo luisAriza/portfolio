@@ -46,8 +46,8 @@ module.exports = {
 				"secondary-900": "#121F21",
 			}),
 			fontFamily: {
-				main: ["Josefin", "sans-serif"],
-				body: ["Nunito", "sans-serif"],
+				main: ["Maven Pro", "sans-serif"],
+				body: ["Josefin Slab", "sans-serif"],
 			},
 			boxShadow: {
 				"t-light": [

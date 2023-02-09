@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
+/* @font-face {
 	font-family: "Josefin";
 	src: url("/fonts/josefin-sans-vf.woff2") format("woff2 supports variations"),
 		url("/fonts/josefin-sans-vf.woff") format("woff"),
@@ -19,7 +19,7 @@
 	font-display: swap;
 	font-weight: 100 900;
 	font-style: normal;
-}
+} */
 
 html {
 	@apply scroll-smooth;
@@ -28,6 +28,8 @@ html {
 	@apply m-0 p-0 box-border;
 }
 body {
+	font-family: "Maven Pro", sans-serif;
+	font-family: "Josefin Slab", serif;
 	@apply font-main font-normal text-zinc-900 bg-white dark:text-white dark:bg-secondary-900 duration-300;
 }
 a,
