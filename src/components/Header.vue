@@ -7,8 +7,8 @@
 			</article>
 			<figure class="mx-auto">
 				<img
-					src="/images/ui-design.svg"
-					alt="background"
+					src="/images/ui-code.svg"
+					alt="illustration_1"
 					width="768"
 					height="248"
 				/>
@@ -19,7 +19,8 @@
 
 <script lang="ts" setup>
 	import { UserIcon } from "@heroicons/vue/24/solid";
-	import ButtonOutline from "./Buttons/ButtonOutline.vue";
+	import ButtonOutline from "./buttons/ButtonOutline.vue";
+	import IconGithub from "./icons/IconGithub.vue";
 </script>
 
 <style scoped lang="postcss">
@@ -39,6 +40,6 @@
 		@apply mb-6 font-body text-xl dark:text-white;
 	}
 	.avatar {
-		@apply w-48 my-6 drop-shadow-lg md:w-60;
+		@apply w-40 h-full;
 	}
 </style>
