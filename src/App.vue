@@ -1,18 +1,13 @@
-<template lang="pug">
-Header
-main
-	Profile
-	Skills
-	Projects
-TabBar
+<template>
+	<!-- <nav>
+		<RouterLink to="/">Home</RouterLink>
+		<RouterLink to="/about">About</RouterLink>
+	</nav> -->
+	<RouterView></RouterView>
 </template>
 
 <script setup lang="ts">
-	import Header from "@components/Header.vue";
-	import Profile from "@components/Profile.vue";
-	import Skills from "@components/Skills.vue";
-	import Projects from "@components/Projects.vue";
-	import TabBar from "@components/TabBar.vue";
+	import { RouterLink, RouterView } from "vue-router";
 </script>
 
 <style scoped lang="postcss"></style>
